@@ -4,7 +4,7 @@ The primary goal for this website is to house my Software/Web Development Portfo
 Every experience builds on to what makes me who I am.
 
 ## Current Wireframe (WIP)
-Landing Page
+**Landing Page**
 ![landing page index](https://user-images.githubusercontent.com/25943488/51159026-e247bc80-183b-11e9-889d-c93e6fc6eec4.png)
 - The main idea or concept with the landing page is to keep it simple but to also show as much as possible about my work and my hobbies
 - At first glance it will show my name in a subtle and modern font. Nothing too fancy that will take attention away from the background
