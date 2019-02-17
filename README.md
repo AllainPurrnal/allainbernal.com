@@ -9,7 +9,7 @@ The main concept for this website is for it to appear as if the website visitor 
 With this idea in mind, I will recreate the look of a shadow box; filling it with was is personally significant to me.
 
 ## Current Wireframe (WIP)
-**Landing Page**
+**Welcome Page**
 ![landing page index](https://user-images.githubusercontent.com/25943488/51159026-e247bc80-183b-11e9-889d-c93e6fc6eec4.png)
 - The main idea or concept with the landing page is to keep it simple but to also show as much as possible about my work and my hobbies
 - At first glance it will show my name in a subtle and modern font. Nothing too fancy that will take attention away from the background
