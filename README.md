@@ -3,6 +3,11 @@ The primary goal for this website is to house my Software/Web Development Portfo
 
 Every experience builds on to what makes me who I am.
 
+## Website Concept
+The main concept for this website is for it to appear as if the website visitor is looking into a shadow box. A shadow box is an enclosed glass-front display case containing objects presented in a thematic grouping with artistic or personal significance. 
+
+With this idea in mind, I will recreate the look of a shadow box; filling it with was is personally significant to me.
+
 ## Current Wireframe (WIP)
 **Landing Page**
 ![landing page index](https://user-images.githubusercontent.com/25943488/51159026-e247bc80-183b-11e9-889d-c93e6fc6eec4.png)
