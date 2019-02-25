@@ -8,7 +8,7 @@ Every experience builds on to what makes me who I am.
 
 The main concept for this website is for it to appear as if the website visitor is looking into a shadow box. A shadow box is an enclosed glass-front display case containing objects presented in a thematic grouping with artistic or personal significance. 
 
-With this idea in mind, I will recreate the look of a shadow box; filling it with was is personally significant to me.
+With this idea in mind, I will recreate the look of a shadow box; filling it with what is personally significant to me.
 
 ## Current Wireframe (WIP)
 
