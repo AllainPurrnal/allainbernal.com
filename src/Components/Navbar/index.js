@@ -6,7 +6,7 @@ import SideNavToggleButton from '../SideNav/SideNavToggleButton.js';
 const Navbar = props => (
   <header className="toolbar">
     <nav className="toolbar_navigation">
-      <div>
+      <div className="toolbar_toggle_button">
         <SideNavToggleButton click={props.navClickHandler}/>
       </div>
       <div className="toolbar_logo"><a href='/'>THE LOGO</a></div>

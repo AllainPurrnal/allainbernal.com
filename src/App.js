@@ -23,19 +23,23 @@ class App extends Component {
     });
   };
 
+  backdropClickHandler = () => {
+    this.setState({sideNavOpen: false});
+  };
+
   render() {
-    let sideNav;
+    // let sideNav;
     let backdrop;
 
-    if (this.state.sideDrawerOpen) {
-      sideNav = <SideNav />;
-      backdrop = <Backdrop />
+    if (this.state.sideNavOpen) {
+      // sideNav = <SideNav />;
+      backdrop = <Backdrop click={this.backdropClickHandler} />
     }
 
     return (
       <div className="App" style={{height: '100%'}}>
         <Navbar navClickHandler={this.sideNavToggleClickHandler}/>
-        {sideNav}
+        <SideNav show={this.state.sideNavOpen} />
         {backdrop}
 
         <main style={{marginTop: '64px'}}>
