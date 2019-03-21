@@ -1,5 +1,10 @@
 import React from 'react';
+import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
 import './index.css'
+
+import Home from '../Pages/Home Page';
+import Portfolio from '../Pages/Portfolio Page';
+import About from '../Pages/About Page';
 
 const SideNav = props => {
   let navClasses = 'side-nav';
@@ -11,9 +16,17 @@ const SideNav = props => {
   return (
     <nav className={navClasses}>
       <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/">Portfolio</a></li>
-        <li><a href="/">About</a></li>
+        <li>
+          <a href="/Home">Home</a>
+        </li>
+        
+        <li>
+          <a href="/Portfolio">Portfolio</a>
+        </li>
+        
+        <li>
+          <a href="/About">About</a>
+        </li>
       </ul>
     </nav>
   );

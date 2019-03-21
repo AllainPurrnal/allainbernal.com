@@ -43,7 +43,7 @@ class App extends Component {
         {backdrop}
 
         <main style={{marginTop: '64px'}}>
-          <p>This is a test!</p>
+          <Welcome />
         </main>
       </div>
     );
