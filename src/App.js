@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
+import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
+
 
 // Dev Pages ----------------------------------------
 import Welcome from './Components/Pages/Welcome Page';
@@ -38,7 +40,15 @@ class App extends Component {
 
     return (
       <div className="App" style={{height: '100%'}}>
-        <Navbar navClickHandler={this.sideNavToggleClickHandler}/>
+        <Router>
+          <div>
+            <Navbar navClickHandler={this.sideNavToggleClickHandler}/>
+            <Route exact path="/">Welcome</Route>
+            <Route exact path="/Home">Home</Route>
+            <Route exact path="/Portfolio">Portfolio</Route>
+            <Route exact path="/About">About</Route>
+          </div>
+        </Router>
         <SideNav show={this.state.sideNavOpen} />
         {backdrop}
 
