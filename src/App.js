@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
 import './App.css';
-import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
-
 
 // Dev Styles --------------------------------------- 
 import './Components/Pages/Welcome Page/assets/bg1.jpg';
