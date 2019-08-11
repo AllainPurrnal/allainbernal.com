@@ -1,0 +1,40 @@
+.App {
+  /* height: 100vh; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.quote {
+  font-family: 'Farro', sans-serif;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 40px;
+}
+
+/* #quoteOne {
+  text-align: left;
+} */
+
+#quoteTwo {
+  text-indent: 75px;
+}
+
+/* .background {
+  position: absolute;
+  background-size: cover;
+} */
+
+@media (min-width: 650px ) {
+  .App {
+      background-position: center center;
+  }
+
+  .quote {
+      align-items: flex-end;
+      justify-content: center;
+  }
+}

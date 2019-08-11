@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
 import './App.css';
+
+// Dev Styles --------------------------------------- 
+import './Components/Pages/Welcome Page/assets/bg1.jpg';
 
 // Dev Pages ----------------------------------------
 import Welcome from './Components/Pages/Welcome Page';
 import Home from './Components/Pages/Home Page';
 import About from './Components/Pages/About Page';
 import Portfolio from './Components/Pages/Portfolio Page';
-import Hobby from './Components/Pages/Hobby Page';
+// import Hobby from './Components/Pages/Hobby Page';
 
 import Navbar from './Components/Navbar';
 import SideNav from './Components/SideNav';
@@ -43,7 +47,14 @@ class App extends Component {
         {backdrop}
 
         <main style={{marginTop: '64px'}}>
-          <Welcome />
+          <Router>
+            <div>  
+              <Route path="/" component={Welcome} />
+              <Route exact path="/Home" component={Home} />
+              <Route exact path="/Portfolio" component={Portfolio} />
+              <Route exact path="/About" component={About} />
+            </div>
+          </Router>
         </main>
       </div>
     );
