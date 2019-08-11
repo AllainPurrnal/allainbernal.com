@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './index.css';
 
 import Home from '../Pages/Home Page';
@@ -19,15 +19,18 @@ const Navbar = props => (
         <div className="toolbar_nav_items">
           <ul>
             <li>
-              <a href="/Home">Home</a>
+              {/* <a href="/Home">Home</a> */}
+              <Link to="/Home">Home</Link>
             </li>
-            
+        
             <li>
               <a href="/Portfolio">Portfolio</a>
+              {/* <Link to="/Portfolio">Portfolio</Link> */}
             </li>
-            
+        
             <li>
               <a href="/About">About</a>
+              {/* <Link to="/About">About</Link> */}
             </li>
           </ul>
         </div>

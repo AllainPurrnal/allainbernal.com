@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
 import './App.css';
+import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
+
 
 // Dev Styles --------------------------------------- 
 import './Components/Pages/Welcome Page/assets/bg1.jpg';
@@ -42,7 +44,15 @@ class App extends Component {
 
     return (
       <div className="App" style={{height: '100%'}}>
-        <Navbar navClickHandler={this.sideNavToggleClickHandler}/>
+        <Router>
+          <div>
+            <Navbar navClickHandler={this.sideNavToggleClickHandler}/>
+            <Route exact path="/">Welcome</Route>
+            <Route exact path="/Home">Home</Route>
+            <Route exact path="/Portfolio">Portfolio</Route>
+            <Route exact path="/About">About</Route>
+          </div>
+        </Router>
         <SideNav show={this.state.sideNavOpen} />
         {backdrop}
 

@@ -14,21 +14,23 @@ const SideNav = props => {
   }
   
   return (
-    <nav className={navClasses}>
-      <ul>
-        <li>
-          <a href="/Home">Home</a>
-        </li>
-        
-        <li>
-          <a href="/Portfolio">Portfolio</a>
-        </li>
-        
-        <li>
-          <a href="/About">About</a>
-        </li>
-      </ul>
-    </nav>
+    <div>
+      <nav className={navClasses}>
+        <ul>
+          <li>
+            <a href="/Home">Home</a>
+          </li>
+
+          <li>
+            <a href="/Portfolio">Portfolio</a>
+          </li>
+
+          <li>
+            <a href="/About">About</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   );
 };
 
