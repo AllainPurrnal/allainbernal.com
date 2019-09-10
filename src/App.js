@@ -1,5 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+//Dev Styles
 import './App.css';
 
 //Dev Pages
@@ -14,7 +16,7 @@ import About from './Components/Pages/Portfolio';
 function App() {
   return (
     <div className="App">
-      <h1>Hello!</h1>
+      <Landing />
     </div>
   );
 }
