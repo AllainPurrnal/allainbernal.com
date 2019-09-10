@@ -1,72 +1,22 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 
-// Dev Styles --------------------------------------- 
-import './Components/Pages/Welcome Page/assets/bg1.jpg';
+//Dev Pages
+import Landing from './Components/Pages/Landing';
+import Home from './Components/Pages/Home';
+import Portfolio from './Components/Pages/Portfolio';
+import About from './Components/Pages/Portfolio';
 
-// Dev Pages ----------------------------------------
-import Welcome from './Components/Pages/Welcome Page';
-import Home from './Components/Pages/Home Page';
-import About from './Components/Pages/About Page';
-import Portfolio from './Components/Pages/Portfolio Page';
-// import Hobby from './Components/Pages/Hobby Page';
+//Dev Page Components
+//To be used for navbars and whatever else thats universal for the website
 
-import Navbar from './Components/Navbar';
-import SideNav from './Components/SideNav';
-import Backdrop from './Components/Backdrop';
-
-class App extends Component {
-  state = {
-    sideNavOpen: false
-  };
-  
-  sideNavToggleClickHandler = () => {
-    this.setState((prevState) => {
-      return {sideNavOpen: !prevState.sideNavOpen}
-    });
-  };
-
-  backdropClickHandler = () => {
-    this.setState({sideNavOpen: false});
-  };
-
-  render() {
-    // let sideNav;
-    let backdrop;
-
-    if (this.state.sideNavOpen) {
-      // sideNav = <SideNav />;
-      backdrop = <Backdrop click={this.backdropClickHandler} />
-    }
-
-    return (
-      <div className="App" style={{height: '100%'}}>
-        <Router>
-          <div>
-            <Navbar navClickHandler={this.sideNavToggleClickHandler}/>
-            <Route exact path="/">Welcome</Route>
-            <Route exact path="/Home">Home</Route>
-            <Route exact path="/Portfolio">Portfolio</Route>
-            <Route exact path="/About">About</Route>
-          </div>
-        </Router>
-        <SideNav show={this.state.sideNavOpen} />
-        {backdrop}
-
-        <main style={{marginTop: '64px'}}>
-          <Router>
-            <div>  
-              <Route path="/" component={Welcome} />
-              <Route exact path="/Home" component={Home} />
-              <Route exact path="/Portfolio" component={Portfolio} />
-              <Route exact path="/About" component={About} />
-            </div>
-          </Router>
-        </main>
-      </div>
-    );
-  }
+function App() {
+  return (
+    <div className="App">
+      <h1>Hello!</h1>
+    </div>
+  );
 }
 
 export default App;
