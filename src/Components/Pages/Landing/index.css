@@ -1,10 +1,6 @@
-.landingPage {
-  /* background-size: cover; */
-  /* background-repeat: no-repeat; */
-  /* background-position: top center; */
-  /* background-color: #fcfcfc; */
-  /* opacity: 50%; */
-}
+/* .landingPage {
+
+} */
 
 .quote {
   font-family: 'Farro', sans-serif;
@@ -33,6 +29,8 @@
   background: center no-repeat;
   background-size: cover;
   background-color: #fcfcfc;
+
+  border: #fcfcfc 50px;
 }
 
 #quoteOne {
