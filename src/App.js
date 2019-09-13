@@ -16,7 +16,7 @@ import About from './Components/Pages/About';
 function App() {
   return (
     <div className="App">
-      <Landing />
+      <Portfolio />
     </div>
   );
 }
