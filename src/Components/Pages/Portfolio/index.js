@@ -8,6 +8,7 @@ function Portfolio() {
     <div className="portfolioPage">
       <p> This is my portfolio page! </p>
       <p>W.I.P</p>
+      <p> Clearly </p>
     </div>
   )
 }
