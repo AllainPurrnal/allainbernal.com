@@ -1,28 +1,29 @@
 .projDiv {
-  background-color: aquamarine;
+  background-color: white;
   padding: 25px;
   margin: 10px;
 
-  border: black;
-  border-style: solid;
-  border-width: 5px;
+  /* border: black; */
+  /* border-style: solid; */
+  /* border-width: 2px; */
   /* border-radius: 10px; */
   
 }
 
 .subRow {
-  background-color: cornflowerblue;
+  background-color: white;
   /* padding: 10px 0px; */
-  border: black;
-  border-style: dashed;
+  /* border: black; */
+  /* border-style: dashed; */
+  /* border-width: 2px; */
 }
 
 #projImg {
   display: flex;
   justify-content: left;
-  border: black;
-  border-style: solid;
-  border-width: 1px;
+  /* border: black; */
+  /* border-style: solid; */
+  /* border-width: 2px; */
 }
 
 #projTitle {
@@ -31,6 +32,7 @@
 
 #projDesc {
   text-align: left;
+  vertical-align: middle;
 }
 
 #projLinks {
