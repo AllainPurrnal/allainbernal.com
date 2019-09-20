@@ -28,8 +28,8 @@ function Portfolio() {
                 </MDBRow>
 
                 <MDBRow id='projLinks'>
-                  <a href='https://www.google.com'> github </a>
-                  <a href='https://www.google.com'> preview </a>
+                  <a href='https://www.google.com'> <em>github</em> </a>
+                  <a href='https://www.google.com'> <em>preview</em> </a>
                 </MDBRow>
               </MDBCol>
             </MDBRow>
