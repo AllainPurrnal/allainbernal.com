@@ -29,6 +29,12 @@ function Portfolio() {
                   </p>
                 </MDBRow>
 
+                <MDBRow id='projTech'>
+                  <p>
+                    <b><em>Technology:</em></b> Hawaiian Coffe Cake Beans (Coarse Grind), 200ml of Water, French Press, 10 Minutes 
+                  </p>
+                </MDBRow>
+
                 <MDBRow id='projLinks'>
                   <a href='https://www.google.com'> <em>github</em> </a>
                   <a href='https://www.google.com'> <em>preview</em> </a>
@@ -42,7 +48,7 @@ function Portfolio() {
           <MDBCol md="12">
             
             <MDBRow className='subRow'>
-            <MDBCol md="5">
+              <MDBCol md="5">
                   <img src='http://placekitten.com/384/216' id='projImg'></img>
               </MDBCol>
               
@@ -57,9 +63,15 @@ function Portfolio() {
                   </p>
                 </MDBRow>
 
+                <MDBRow id='projTech'>
+                  <p>
+                    <b><em>Technology:</em></b> Hawaiian Coffe Cake Beans (Coarse Grind), 200ml of Water, French Press, 10 Minutes 
+                  </p>
+                </MDBRow>
+
                 <MDBRow id='projLinks'>
-                  <a href='https://www.google.com'> github </a>
-                  <a href='https://www.google.com'> preview </a>
+                  <a href='https://www.google.com'> <em>github</em> </a>
+                  <a href='https://www.google.com'> <em>preview</em> </a>
                 </MDBRow>
               </MDBCol>
             </MDBRow>
@@ -70,7 +82,7 @@ function Portfolio() {
           <MDBCol md="12">
             
             <MDBRow className='subRow'>
-            <MDBCol md="5">
+              <MDBCol md="5">
                   <img src='http://placekitten.com/384/216' id='projImg'></img>
               </MDBCol>
               
@@ -85,9 +97,15 @@ function Portfolio() {
                   </p>
                 </MDBRow>
 
+                <MDBRow id='projTech'>
+                  <p>
+                    <b><em>Technology:</em></b> Hawaiian Coffe Cake Beans (Coarse Grind), 200ml of Water, French Press, 10 Minutes 
+                  </p>
+                </MDBRow>
+
                 <MDBRow id='projLinks'>
-                  <a href='https://www.google.com'> github </a>
-                  <a href='https://www.google.com'> preview </a>
+                  <a href='https://www.google.com'> <em>github</em> </a>
+                  <a href='https://www.google.com'> <em>preview</em> </a>
                 </MDBRow>
               </MDBCol>
             </MDBRow>
