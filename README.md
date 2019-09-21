@@ -6,15 +6,15 @@ Every experience builds on to what makes me who I am.
 
 ## Website Concept
 
-The main concept for this website is for it to appear as if the website visitor is looking into a shadow box. A shadow box is an enclosed glass-front display case containing objects presented in a thematic grouping with artistic or personal significance. 
+The main idea for this website is to keep things simple with the work presented speaking for itself. 
 
-With this idea in mind, I will recreate the look of a shadow box; filling it with what is personally significant to me.
+The user will be able to navigate by clicking/swiping left or right on the page to bring in the next page. If the user is interested in learning more about a particular section, they can scroll/swipe down to reveal more information.
+
+The goal is to keep the website uncluttered and clean while making navigation simple and intuitive.
 
 ## Current Wireframe (WIP)
 
 **Welcome Page**
-![landing page](https://user-images.githubusercontent.com/25943488/53368440-9fc6d480-38fd-11e9-8dca-8aac97a49257.png)
-
 - The main idea or concept with the landing page is to keep it simple but to also show as much as possible about my work and my hobbies
 - At first glance it will show my name in a subtle and modern font. Nothing too fancy that will take attention away from the background
 - The background will have a rotating set of images of my previous works and hobbies
