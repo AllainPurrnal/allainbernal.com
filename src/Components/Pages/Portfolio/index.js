@@ -4,6 +4,8 @@ import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 //Dev Styles
 import './index.css';
 
+//Dev Page Components
+
 function Portfolio() {
   return(
     <div className="portfolioPage">
