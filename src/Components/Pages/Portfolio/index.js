@@ -1,5 +1,5 @@
 import React from 'react';
-import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
+import { MDBContainer, MDBRow, MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText } from "mdbreact";
 
 //Dev Styles
 import './index.css';
@@ -10,107 +10,86 @@ function Portfolio() {
   return(
     <div className="portfolioPage">
       <MDBContainer>
-        <MDBRow className='projDiv z-depth-1'>
-          <MDBCol md="12">
-            
-            <MDBRow className='subRow'>
-              <MDBCol md="5">
-                  <img src='http://placekitten.com/384/216' id='projImg'></img>
-              </MDBCol>
-              
-              <MDBCol md="7">
-                <MDBRow id='projTitle'>
-                  <h3>Project: Example 1</h3>
-                </MDBRow>
-                
-                <MDBRow id='projDesc'>
-                  <p>
-                    Cream, whipped plunger pot crema variety sit steamed caramelization. French press blue mountain white, affogato, acerbic that macchiato cream viennese. Cup decaffeinated cup, grounds, whipped, cinnamon single origin acerbic black wings.
-                  </p>
-                </MDBRow>
 
-                <MDBRow id='projTech'>
-                  <p>
-                    <b><em>Technology:</em></b> Hawaiian Coffe Cake Beans (Coarse Grind), 200ml of Water, French Press, 10 Minutes 
-                  </p>
-                </MDBRow>
-
-                <MDBRow id='projLinks'>
-                  <a href='https://www.google.com'> <em>github</em> </a>
-                  <a href='https://www.google.com'> <em>preview</em> </a>
-                </MDBRow>
-              </MDBCol>
-            </MDBRow>
-          </MDBCol>
+        <h3>Current Works</h3>
+        <MDBRow>
+            <MDBCard className='projDiv' style={{ width: "22rem" }}>
+              <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
+              <MDBCardBody>
+                <MDBCardTitle>Card title</MDBCardTitle>
+                <MDBCardText>
+                  Some quick example text to build on the card title and make
+                  up the bulk of the card&apos;s content.
+                </MDBCardText>
+                <MDBBtn outline href="https://www.google.com">MDBBtn</MDBBtn>
+              </MDBCardBody>
+            </MDBCard>
+    
+            <MDBCard className='projDiv' style={{ width: "22rem" }}>
+              <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
+              <MDBCardBody>
+                <MDBCardTitle>Card title</MDBCardTitle>
+                <MDBCardText>
+                  Some quick example text to build on the card title and make
+                  up the bulk of the card&apos;s content.
+                </MDBCardText>
+                <MDBBtn outline href="#">MDBBtn</MDBBtn>
+              </MDBCardBody>
+            </MDBCard>
+    
+            <MDBCard className='projDiv' style={{ width: "22rem" }}>
+              <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
+              <MDBCardBody>
+                <MDBCardTitle>Card title</MDBCardTitle>
+                <MDBCardText>
+                  Some quick example text to build on the card title and make
+                  up the bulk of the card&apos;s content.
+                </MDBCardText>
+                <MDBBtn outline href="#">MDBBtn</MDBBtn>
+              </MDBCardBody>
+            </MDBCard>
         </MDBRow>
-        
-        <MDBRow className='projDiv z-depth-1'>
-          <MDBCol md="12">
+    
+        <hr></hr>
+        <h3>Previous Works</h3>
+        <MDBRow>
+            <MDBCard className='projDiv' style={{ width: "22rem" }}>
+              <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
+              <MDBCardBody>
+                <MDBCardTitle>Card title</MDBCardTitle>
+                <MDBCardText>
+                  Some quick example text to build on the card title and make
+                  up the bulk of the card&apos;s content.
+                </MDBCardText>
+                <MDBBtn outline href="#">MDBBtn</MDBBtn>
+              </MDBCardBody>
+            </MDBCard>
+    
+            <MDBCard className='projDiv' style={{ width: "22rem" }}>
+              <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
+              <MDBCardBody>
+                <MDBCardTitle>Card title</MDBCardTitle>
+                <MDBCardText>
+                  Some quick example text to build on the card title and make
+                  up the bulk of the card&apos;s content.
+                </MDBCardText>
+                <MDBBtn outline href="#">MDBBtn</MDBBtn>
+              </MDBCardBody>
+            </MDBCard>
             
-            <MDBRow className='subRow'>
-              <MDBCol md="5">
-                  <img src='http://placekitten.com/384/216' id='projImg'></img>
-              </MDBCol>
-              
-              <MDBCol md="7">
-                <MDBRow id='projTitle'>
-                  <h3>Project: Example 2</h3>
-                </MDBRow>
-                
-                <MDBRow id='projDesc'>
-                  <p>
-                    Cream, whipped plunger pot crema variety sit steamed caramelization. French press blue mountain white, affogato, acerbic that macchiato cream viennese. Cup decaffeinated cup, grounds, whipped, cinnamon single origin acerbic black wings.
-                  </p>
-                </MDBRow>
-
-                <MDBRow id='projTech'>
-                  <p>
-                    <b><em>Technology:</em></b> Hawaiian Coffe Cake Beans (Coarse Grind), 200ml of Water, French Press, 10 Minutes 
-                  </p>
-                </MDBRow>
-
-                <MDBRow id='projLinks'>
-                  <a href='https://www.google.com'> <em>github</em> </a>
-                  <a href='https://www.google.com'> <em>preview</em> </a>
-                </MDBRow>
-              </MDBCol>
-            </MDBRow>
-          </MDBCol>
+            <MDBCard className='projDiv' style={{ width: "22rem" }}>
+              <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
+              <MDBCardBody>
+                <MDBCardTitle>Card title</MDBCardTitle>
+                <MDBCardText>
+                  Some quick example text to build on the card title and make
+                  up the bulk of the card&apos;s content.
+                </MDBCardText>
+                <MDBBtn outline href="#">MDBBtn</MDBBtn>
+              </MDBCardBody>
+            </MDBCard>
         </MDBRow>
-
-        <MDBRow className='projDiv z-depth-1'>
-          <MDBCol md="12">
-            
-            <MDBRow className='subRow'>
-              <MDBCol md="5">
-                  <img src='http://placekitten.com/384/216' id='projImg'></img>
-              </MDBCol>
-              
-              <MDBCol md="7">
-                <MDBRow id='projTitle'>
-                  <h3>Project: Example 3</h3>
-                </MDBRow>
-                
-                <MDBRow id='projDesc'>
-                  <p>
-                    Cream, whipped plunger pot crema variety sit steamed caramelization. French press blue mountain white, affogato, acerbic that macchiato cream viennese. Cup decaffeinated cup, grounds, whipped, cinnamon single origin acerbic black wings.
-                  </p>
-                </MDBRow>
-
-                <MDBRow id='projTech'>
-                  <p>
-                    <b><em>Technology:</em></b> Hawaiian Coffe Cake Beans (Coarse Grind), 200ml of Water, French Press, 10 Minutes 
-                  </p>
-                </MDBRow>
-
-                <MDBRow id='projLinks'>
-                  <a href='https://www.google.com'> <em>github</em> </a>
-                  <a href='https://www.google.com'> <em>preview</em> </a>
-                </MDBRow>
-              </MDBCol>
-            </MDBRow>
-          </MDBCol>
-        </MDBRow>
+    
       </MDBContainer>
     </div>
   )

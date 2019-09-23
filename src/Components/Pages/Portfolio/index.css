@@ -1,46 +1,11 @@
-.projDiv {
-  background-color: white;
+.portfolioPage {
   padding: 25px;
   margin: 10px;
   align-content: center;
-
-  /* border: black; */
-  /* border-style: solid; */
-  /* border-width: 2px; */
-  /* border-radius: 10px; */
-  
 }
 
-.subRow {
+.projDiv {
   background-color: white;
-  /* padding: 10px 0px; */
-  /* border: black; */
-  /* border-style: dashed; */
-  /* border-width: 2px; */
-}
-
-#projImg {
-  display: flex;
-  justify-content: left;
-  /* border: black; */
-  /* border-style: solid; */
-  /* border-width: 2px; */
-}
-
-#projTitle {
-  text-align: left;
-}
-
-#projDesc {
-  text-align: left;
-  vertical-align: middle;
-  font-size: 20px;
-}
-
-#projTech {
-  font-size: 15px;
-}
-
-#projLinks {
-  font-size: 15px;
+  margin: 10px;
+  align-content: center;
 }
