@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
-import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBFormInline, MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem } from "mdbreact";
+import { Link } from "react-router-dom";
+import {MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavbarToggler, MDBCollapse, } from "mdbreact";
 
 //Dev Styles
 import './index.css';
@@ -15,7 +15,7 @@ class Navigation extends Component {
   state = {
     isOpen: false
   };
-  
+
   toggleCollapse = () => {
     this.setState({ isOpen: !this.state.isOpen });
   }
@@ -25,56 +25,42 @@ class Navigation extends Component {
     const container = {height: 1300}
 
     return(
-      <Router>
-        <MDBNavbar style={bgPink} dark expand="md" scrolling fixed="top">
+      <MDBNavbar className="navbar" color="indigo" dark expand="md">
+        <MDBNavbarBrand><Link to ={"/"}>
+          <strong className="white-text">Muse</strong></Link>
+        </MDBNavbarBrand>
+        <MDBNavbarToggler onClick={this.toggleCollapse} />
 
-          <MDBNavbarBrand>
-            <strong className="white-text">Navbar</strong>
-          </MDBNavbarBrand>
+        <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
+          <MDBNavbarNav left>
 
-          <MDBNavbarToggler onClick={this.toggleCollapse} />
-          <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
-            <MDBNavbarNav left>
-              <MDBNavItem active>
-                <MDBNavLink exact to="/">Home</MDBNavLink>
+            {/* This will direct users to their profile page */}
+            <MDBNavItem>
+              <Link to="/Home"
+              className={window.location.pathname === "/Home" ? "nav-link active" : "nav-link"}>
+                Home
+              </Link>
               </MDBNavItem>
 
-              <MDBNavItem>
-                <MDBNavLink to="/Portfolio">Portfolio</MDBNavLink>
-              </MDBNavItem>
+            {/* active sets the highlight to show which page user is in*/}
+            <MDBNavItem> 
+            <Link to="/Portfolio"
+              className={window.location.pathname === "/Portfolio" ? "nav-link active" : "nav-link"}>
+                Portfolio
+              </Link>
+            </MDBNavItem>
 
-              <MDBNavItem>
-                <MDBNavLink to="/About">About</MDBNavLink>
-              </MDBNavItem>
+            {/* This will direct users to the About Page */}
+            <MDBNavItem> 
+              <Link to="/About"
+              className={window.location.pathname === "/About" ? "nav-link active" : "nav-link"}>
+                About
+              </Link>
+            </MDBNavItem>
 
-              <MDBNavItem>
-                <MDBDropdown>
-                  <MDBDropdownToggle nav caret>
-                    <span className="mr-2">Dropdown</span>
-                  </MDBDropdownToggle>
-                  <MDBDropdownMenu>
-                    <MDBDropdownItem href="#!">Action</MDBDropdownItem>
-                    <MDBDropdownItem href="#!">Another Action</MDBDropdownItem>
-                    <MDBDropdownItem href="#!">Something else here</MDBDropdownItem>
-                    <MDBDropdownItem href="#!">Something else here</MDBDropdownItem>
-                  </MDBDropdownMenu>
-                </MDBDropdown>
-              </MDBNavItem>
-            </MDBNavbarNav>
-
-            <MDBNavbarNav right>
-              <MDBNavItem>
-                <MDBFormInline waves>
-                  <div className="md-form my-0">
-                    <input className="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" />
-                  </div>
-                </MDBFormInline>
-              </MDBNavItem>
-            </MDBNavbarNav>
-
-          </MDBCollapse>
-        </MDBNavbar>
-      </Router>
+          </MDBNavbarNav>
+        </MDBCollapse>
+      </MDBNavbar>
     );
   }
 }

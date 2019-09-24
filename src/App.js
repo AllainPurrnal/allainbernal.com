@@ -9,19 +9,21 @@ import Landing from './Components/Pages/Landing';
 import Home from './Components/Pages/Home';
 import Portfolio from './Components/Pages/Portfolio';
 import About from './Components/Pages/About';
-import Navigation from './Components/Navigation';
 
 //Dev Page Components
+import Navigation from './Components/Navigation';
 
 function App() {
   return (
     <div className="App">
-      {/* <Router> */}
-        <Navigation />
-        {/* <Route exact path='/' component={Home} /> */}
-        {/* <Route path='/Portfolio' component={Portfolio} /> */}
-        {/* <Route path='/About' component={About} /> */}
-      {/* </Router> */}
+        <Router>
+          <div>
+            <Navigation/>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/Portfolio" component={Portfolio} />
+            {/* <Route exact path="/About" component={About} /> */}
+          </div>
+        </Router>
     </div>
   );
 }
