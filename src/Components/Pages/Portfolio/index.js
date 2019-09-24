@@ -3,7 +3,7 @@ import { MDBContainer, MDBRow, MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCa
 
 //Dev Styles
 import './index.css';
-
+import exPage from './assets/bg2.JPG';
 //Dev Page Components
 
 function Portfolio() {
@@ -14,7 +14,7 @@ function Portfolio() {
         <h3>Current Works</h3>
         <MDBRow>
             <MDBCard className='projDiv' style={{ width: "22rem" }}>
-              <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
+              <MDBCardImage className="img-fluid" src={exPage} waves />
               <MDBCardBody>
                 <MDBCardTitle>Card title</MDBCardTitle>
                 <MDBCardText>
