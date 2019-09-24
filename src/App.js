@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 //Dev Styles
 import './App.css';
@@ -9,13 +9,19 @@ import Landing from './Components/Pages/Landing';
 import Home from './Components/Pages/Home';
 import Portfolio from './Components/Pages/Portfolio';
 import About from './Components/Pages/About';
+import Navigation from './Components/Navigation';
 
 //Dev Page Components
 
 function App() {
   return (
     <div className="App">
-      <Portfolio />
+      {/* <Router> */}
+        <Navigation />
+        {/* <Route exact path='/' component={Home} /> */}
+        {/* <Route path='/Portfolio' component={Portfolio} /> */}
+        {/* <Route path='/About' component={About} /> */}
+      {/* </Router> */}
     </div>
   );
 }
