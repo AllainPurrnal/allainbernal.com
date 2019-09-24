@@ -10,12 +10,9 @@ function Landing() {
     <MDBContainer className="mt-5 text-center landingPage">
       <MDBRow>
         <MDBCol>
-          <MDBJumbotron className="text-center bgImg">
+          <MDBJumbotron className="text-center">
 
-            <MDBCardImage
-              src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg"
-              className="img-fluid"
-            />
+            <MDBCardImage src={bg1} className='img-fluid' />
 
           </MDBJumbotron>
         </MDBCol>
