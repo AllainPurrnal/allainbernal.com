@@ -11,12 +11,11 @@ import Portfolio from './Components/Pages/Portfolio';
 import About from './Components/Pages/About';
 
 //Dev Page Components
-//To be used for navbars and whatever else thats universal for the website
 
 function App() {
   return (
     <div className="App">
-      <Landing />
+      <Portfolio />
     </div>
   );
 }
