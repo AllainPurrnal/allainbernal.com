@@ -39,7 +39,7 @@ class Navigation extends Component {
               <MDBNavItem>
                 <Link to="/Home"
                 className={window.location.pathname === "/Home" ? "nav-link active" : "nav-link"}>
-                  Oink
+                  Home
                 </Link>
                 </MDBNavItem>
 
@@ -47,7 +47,7 @@ class Navigation extends Component {
               <MDBNavItem> 
               <Link to="/Portfolio"
                 className={window.location.pathname === "/Portfolio" ? "nav-link active" : "nav-link"}>
-                  Murr
+                  Portfolio
                 </Link>
               </MDBNavItem>
 
@@ -55,7 +55,7 @@ class Navigation extends Component {
               <MDBNavItem> 
                 <Link to="/About"
                 className={window.location.pathname === "/About" ? "nav-link active" : "nav-link"}>
-                  Meow
+                  About
                 </Link>
               </MDBNavItem>
 
