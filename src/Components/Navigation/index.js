@@ -26,9 +26,9 @@ class Navigation extends Component {
     return(
       <div className='Navbar'>
         <MDBNavbar className="navbar" color="indigo" dark expand="md">
-          <MDBNavbarBrand><Link to ={"/"}>
+          {/* <MDBNavbarBrand><Link to ={"/"}>
             <strong className="white-text">Muse</strong></Link>
-          </MDBNavbarBrand>
+          </MDBNavbarBrand> */}
           
           <MDBNavbarToggler onClick={this.toggleCollapse} />
 
