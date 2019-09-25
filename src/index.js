@@ -12,7 +12,7 @@ import 'mdbreact/dist/css/mdb.css';
 import './index.css';
 //insert font here please <3
 
-ReactDOM.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>, document.getElementById('root'));
+ReactDOM.render( 
+<BrowserRouter>  
+  <App />
+</BrowserRouter>, document.getElementById('root'));
