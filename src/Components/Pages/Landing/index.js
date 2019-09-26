@@ -7,7 +7,7 @@ import bg1 from './assets/bg1.jpg';
 
 function Landing() {
   return(
-    <MDBContainer className="mt-5 text-center landingPage">
+    <MDBContainer fluid className="mt-5 text-center landingPage">
       <MDBRow>
         <MDBCol>
           <MDBJumbotron className="text-center">
