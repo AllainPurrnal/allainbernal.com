@@ -1,3 +1,18 @@
 .desc {
   float: left;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 15px;
+}
+
+.image {
+  align-content: center;
+}
+
+.section {
+  padding-top: 25px;
+}
+
+.background, .experience {
+  padding: 15px 0px;
 }

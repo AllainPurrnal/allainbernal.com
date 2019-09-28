@@ -1,5 +1,5 @@
 import React from 'react';
-import { MDBJumbotron, MDBBtn, MDBContainer, MDBRow, MDBCol } from "mdbreact";
+import { MDBSticky, MDBStickyContent, MDBContainer, MDBRow, MDBCol } from "mdbreact";
 
 // Dev Styles
 import './index.css';
@@ -10,36 +10,32 @@ function About() {
     <dic className='aboutPage'>
       <MDBContainer className="mt-5 text-justify">
         <MDBRow>
-          <MDBCol>
-            <MDBJumbotron>
-              <MDBRow className='background'>
-                <MDBCol md="3">
-                  <img src='http://placekitten.com/225/225' alt='me' height="250px"></img>
-                </MDBCol>
-                {/* src={me} */}
-                <MDBCol md="9">
-                  <p className='desc'>
-                    Medium spoon cultivar doppio caramelization cinnamon organic. Aromatic, percolator aged id percolator mazagran whipped variety. Pumpkin spice fair trade aroma crema ristretto cultivar galão. Beans, caramelization, crema, grinder, sugar, grinder, galão white cup coffee variety. Robusta body qui as blue mountain cream that froth. Et con panna bar, so turkish barista caramelization and con panna. Variety mocha white decaffeinated redeye viennese grinder eu cappuccino kopi-luwak caramelization. Et froth, latte, spoon est coffee dripper as cinnamon sweet extraction. Froth to go a, so java crema filter aged cup sweet. Mocha, cultivar variety, caramelization as milk est aroma pumpkin spice. Cappuccino whipped at sweet froth, arabica decaffeinated caffeine ut mocha to go ristretto. Extraction java irish, viennese that doppio, french press, filter plunger pot foam dripper chicory. Froth cortado variety doppio con panna white cup, fair trade rich affogato java aromatic. And frappuccino doppio to go mazagran robust froth frappuccino. Percolator, frappuccino café au lait, extraction aftertaste eu ut breve. Doppio, flavour, con panna, organic, cream, single origin seasonal black carajillo mug macchiato. Coffee, mug saucer coffee id blue mountain to go bar cortado pumpkin spice robusta. Sit decaffeinated single shot wings, arabica fair trade doppio aged robusta. Eu percolator aromatic at french press, breve rich chicory white percolator roast. Dripper, sit doppio carajillo variety aromatic plunger pot.
-                  </p>
-                </MDBCol>
-              </MDBRow>
-              
-              <hr className="my-2" />
+          <MDBCol md="3">
+            <img src='http://placekitten.com/250/250' className="img-fluid z-depth-1 rounded-circle" alt='me' height="250px"></img>
+          </MDBCol>
 
-              <MDBRow className='experience'>
-                <p>
-                  It uses utility classes for typgraphy and spacing to space content out
-                  within the larger container.
+          <MDBCol md="9">
+            <MDBRow className="background z-depth-1 rounded">
+              <MDBCol>
+                <h5 className="section text-center"><em><strong>Background</strong></em></h5>
+                <p className='desc'>
+                  Latte macchiato, galão steamed filter, roast ut, aromatic espresso sit brewed viennese robusta fair trade extraction strong beans blue mountain to go qui mocha extra lungo. Bar pumpkin spice, aroma caffeine seasonal id affogato dark café au lait cortado, dark, java sweet frappuccino mug est extra bar instant. Skinny, arabica doppio, caramelization, aromatic java beans, irish frappuccino cup con panna spoon café au lait. Variety aromatic carajillo flavour lungo as, siphon barista, pumpkin spice grounds single shot flavour mocha half and half foam. Aromatic to go skinny steamed robusta caramelization, organic grinder galão con panna at, est macchiato, cup, est froth shop in organic. Cultivar iced est café au lait, grounds single shot siphon, barista, galão crema beans, crema ut americano cinnamon con panna single origin strong. Cinnamon carajillo, irish, arabica, bar, whipped, cappuccino variety iced crema plunger pot cinnamon crema. Breve mazagran aged, irish, viennese, percolator mocha, white, espresso grounds steamed milk, so whipped, grinder dripper brewed roast turkish. Aged, ut, aftertaste, half and half a, grinder, cream in that redeye percolator, extraction, breve, viennese, caffeine robust trifecta medium aftertaste spoon. Whipped café au lait french press, cultivar, caramelization, single origin breve flavour aftertaste trifecta caffeine filter americano organic.
                 </p>
-              </MDBRow>
 
-              <MDBRow className='contact'>
-                <p>
-
+                <p className='desc'>
+                  Latte macchiato, galão steamed filter, roast ut, aromatic espresso sit brewed viennese robusta fair trade extraction strong beans blue mountain to go qui mocha extra lungo. Bar pumpkin spice, aroma caffeine seasonal id affogato dark café au lait cortado, dark, java sweet frappuccino mug est extra bar instant. Skinny, arabica doppio, caramelization, aromatic java beans, irish frappuccino cup con panna spoon café au lait. Variety aromatic carajillo flavour lungo as, siphon barista, pumpkin spice grounds single shot flavour mocha half and half foam. Aromatic to go skinny steamed robusta caramelization, organic grinder galão con panna at, est macchiato, cup, est froth shop in organic. Cultivar iced est café au lait, grounds single shot siphon, barista, galão crema beans, crema ut americano cinnamon con panna single origin strong. Cinnamon carajillo, irish, arabica, bar, whipped, cappuccino variety iced crema plunger pot cinnamon crema. Breve mazagran aged, irish, viennese, percolator mocha, white, espresso grounds steamed milk, so whipped, grinder dripper brewed roast turkish. Aged, ut, aftertaste, half and half a, grinder, cream in that redeye percolator, extraction, breve, viennese, caffeine robust trifecta medium aftertaste spoon. Whipped café au lait french press, cultivar, caramelization, single origin breve flavour aftertaste trifecta caffeine filter americano organic.
                 </p>
-              </MDBRow>
+              </MDBCol>
+            </MDBRow>
 
-            </MDBJumbotron>
+            <MDBRow className="experience z-depth-1 rounded">
+              <MDBCol>
+                <h5 className="section text-center"><em><strong>Experience</strong></em></h5>
+                <p className='desc'>
+                  Wings variety as cortado french press est cortado single origin, grinder mocha chicory beans dark organic. Beans sweet as milk, so in, roast, plunger pot medium id beans pumpkin spice rich. Extraction, sit, organic, est variety a, cortado percolator body, single origin frappuccino grounds brewed lungo. Caramelization ut kopi-luwak carajillo, cup mazagran body white, half and half eu beans sweet seasonal. Macchiato variety espresso sweet in cinnamon, redeye spoon skinny fair trade in eu bar sit, turkish aged, carajillo white arabica caramelization caffeine that arabica. French press seasonal eu, whipped instant, foam, crema cinnamon coffee dripper foam trifecta flavour. Half and half dripper instant macchiato half and half, galão, affogato, robusta trifecta, saucer cream cinnamon frappuccino americano java. Robust, single shot beans, aftertaste coffee, aged, eu, ut turkish saucer shop medium carajillo. Frappuccino, half and half, id, that beans froth iced decaffeinated sit, qui, latte in irish, kopi-luwak pumpkin spice crema plunger pot coffee. Single shot galão that brewed coffee, latte, cultivar, crema so, aftertaste, dripper, fair trade eu macchiato cappuccino, fair trade id caramelization crema medium java kopi-luwak irish mazagran.
+                </p>
+              </MDBCol>
+            </MDBRow>
           </MDBCol>
         </MDBRow>
       </MDBContainer>
