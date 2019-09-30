@@ -1,0 +1,36 @@
+.aboutPage{
+  align-items: flex-start;
+}
+
+/*  Contains portfolio image and page nav */
+.profileImage {
+position: -webkit-sticky;
+position: sticky;
+top: 2rem;
+}
+
+#aboutNav {
+  list-style: none;
+}
+
+li {
+  padding: 4px;
+  justify-content: center;
+}
+
+/* Contains description of background and experience */
+.my-background, .my-experience {
+  padding: 15px 0px ;
+  padding-left: 30px;
+}
+
+#desc {
+  float: left;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 15px;
+}
+
+#sectionHeader {
+  padding-top: 25px;
+}
