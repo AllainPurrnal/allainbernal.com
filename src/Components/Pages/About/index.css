@@ -14,5 +14,15 @@
 }
 
 .background, .experience {
-  padding: 15px 0px;
+  padding: 15px 0px ;
+}
+
+.background {
+  align-items: flex-start;
+}
+
+#profileImage {
+position: -webkit-sticky;
+position: sticky;
+top: 3rem;
 }
