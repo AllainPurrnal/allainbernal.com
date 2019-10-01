@@ -14,7 +14,7 @@ function Landing() {
       <MDBCarouselInner>
         <MDBCarouselItem itemId="1">
           <MDBView>
-            <img className="d-block w-100" src={bg1} alt="First slide" />
+            <img className="d-block w-100 img-fluid" src={bg1} alt="First slide" />
             <MDBMask overlay='black-light' />
           </MDBView>
 
