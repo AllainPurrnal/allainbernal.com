@@ -1,4 +1,14 @@
+/* Styling for the entire blog section */
+.blog {
+  width: 85%;
+  padding: 20px;
+}
+
+/* Styling for individual posts */
 .blogPost {
-  padding: 25px;
-  width: 95%;
+  padding: 25px 35px;
+}
+
+#postEntry {
+  margin: 35px;
 }
