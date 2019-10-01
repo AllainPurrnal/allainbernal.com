@@ -6,11 +6,15 @@
 .profileImage {
 position: -webkit-sticky;
 position: sticky;
-top: 2rem;
+top: 3rem;
+padding: 15px;
 }
 
 #aboutNav {
   list-style: none;
+  text-align: center;
+  padding-left: 10px;
+  
 }
 
 li {
@@ -19,7 +23,7 @@ li {
 }
 
 /* Contains description of background and experience */
-.my-background, .my-experience {
+.my-background, .my-experience, .my-contact {
   padding: 15px 0px ;
   padding-left: 30px;
 }

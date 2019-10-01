@@ -10,16 +10,20 @@ function About() {
       <MDBContainer className="aboutPage mt-5 text-justify">
         <MDBRow>
           <MDBCol md="3">
-            <div className="profileImage">
-              <img src='http://placekitten.com/250/250' className="img-fluid z-depth-1 rounded-circle" alt='me' height="250px"></img>
+            <div className="profileImage z-depth-1">
+              <img src='http://placekitten.com/225/225' className="img-fluid rounded-circle" alt='me'></img>
 
               <ul id="aboutNav">
                 <li>
-                  <a href="/About#background"><h4><em>Background</em></h4></a>
+                  <a href="/About#background"><h5><em>Background</em></h5></a>
                 </li>
 
                 <li>
-                  <a href="/About#experience"><h4><em>Experience</em></h4></a>
+                  <a href="/About#experience"><h5><em>Experience</em></h5></a>
+                </li>
+
+                <li>
+                  <a href="/About#contact"><h5><em>Contact</em></h5></a>
                 </li>
               </ul>
             </div>
@@ -61,6 +65,21 @@ function About() {
                 </p>
               </MDBCol>
             </MDBRow>
+
+            <MDBRow className="my-contact" id="contact">
+              <MDBCol className='z-depth-1 rounded'>
+                <p>
+                  <strong>email: </strong><em>potato@gmail.com</em>
+                </p>
+                <p>
+                  <strong>linkedin: </strong><em>linkedin.com/in/potato</em>
+                </p>
+                <p>
+                  <strong>resume: </strong><em>randomresumelinke.com</em>
+                </p>
+              </MDBCol>
+            </MDBRow>
+
           </MDBCol>
         </MDBRow>
       </MDBContainer>
