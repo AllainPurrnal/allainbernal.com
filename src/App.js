@@ -16,13 +16,17 @@ import Navigation from './Components/Navigation';
 function App() {
   return (
     <div className="App">
-      <Router>
+      {/* <Router>
         <Navigation />
         <Route exact path="/" component={Landing} />
         <Route path="/Home" component={Home} />
         <Route path="/Portfolio" component={Portfolio} />
         <Route path="/About" component={About} />
-      </Router>
+      </Router> */}
+      <Landing />
+      <Home />
+      <About />
+      <Portfolio />
     </div>
   );
 }
