@@ -9,7 +9,7 @@ function Home() {
     <MDBContainer>
       <MDBCol>
         <MDBRow className="blog">
-          <MDBCol className='z-depth-1 rounded text-justify'>    
+          <MDBCol className='text-justify'>    
             <div className="blogPost">  
               <h5 id="postTitle"><strong> Post Title </strong></h5>
               <p id="postDate"> Published on <em>01 Oct 2019</em></p>
@@ -22,7 +22,7 @@ function Home() {
         </MDBRow>
 
         <MDBRow className="blog">
-          <MDBCol className='z-depth-1 rounded text-justify'>    
+          <MDBCol className='text-justify'>    
             <div className="blogPost">   
               <h5 id="postTitle"><strong> Post Title </strong></h5>
               <p id="postDate"> Published on <em>30 Sep 2019</em></p>
@@ -35,7 +35,7 @@ function Home() {
         </MDBRow>
 
         <MDBRow className="blog">
-          <MDBCol className='z-depth-1 rounded text-justify'>    
+          <MDBCol className='text-justify'>    
             <div className="blogPost">    
               <h5 id="postTitle"><strong> Post Title </strong></h5>
               <p id="postDate"> Published on <em>29 Sep 2019</em></p>
@@ -48,7 +48,7 @@ function Home() {
         </MDBRow>
 
         <MDBRow className="blog">
-          <MDBCol className='z-depth-1 rounded text-justify'>    
+          <MDBCol className='text-justify'>    
             <div className="blogPost">   
               <h5 id="postTitle"><strong> Post Title </strong></h5>
               <p id="postDate"> Published on <em>28 Sep 2019</em></p>
@@ -61,7 +61,7 @@ function Home() {
         </MDBRow>
 
         <MDBRow className="blog">
-          <MDBCol className='z-depth-1 rounded text-justify'>    
+          <MDBCol className='text-justify'>    
             <div className="blogPost">   
               <h5 id="postTitle"><strong> Post Title </strong></h5>
               <p id="postDate"> Published on <em>27 Sep 2019</em></p>
