@@ -66,20 +66,6 @@ function About() {
               </MDBCol>
             </MDBRow>
 
-            <MDBRow className="my-contact" id="contact">
-              <MDBCol className='z-depth-1 rounded'>
-                <p>
-                  <strong>email: </strong><em>potato@gmail.com</em>
-                </p>
-                <p>
-                  <strong>linkedin: </strong><em>linkedin.com/in/potato</em>
-                </p>
-                <p>
-                  <strong>resume: </strong><em>randomresumelinke.com</em>
-                </p>
-              </MDBCol>
-            </MDBRow>
-
           </MDBCol>
         </MDBRow>
       </MDBContainer>

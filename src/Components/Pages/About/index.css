@@ -28,13 +28,13 @@ li {
   padding-left: 30px;
 }
 
+#sectionHeader {
+  padding-top: 25px;
+}
+
 #desc {
   float: left;
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 15px;
-}
-
-#sectionHeader {
-  padding-top: 25px;
 }
