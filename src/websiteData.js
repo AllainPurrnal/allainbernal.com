@@ -14,6 +14,41 @@ let websiteData = {
       name: "Github",
       link: "https://github.com/AllainPurrnal"
     }
+  ],
+  experience: [
+    {
+
+    }
+  ],
+  portfolio: [
+    {
+      projectName: "allainbernal.com",
+      projectLink: "https://github.com/AllainPurrnal/allainbernal.com",
+      projectDesc: "A personal website that is ever evolving"
+    },
+    {
+      projectName: "",
+      projectLink: "",
+      projectDesc: ""
+    }
+  ],
+  skill: [
+    {
+      skillType: "Programming Languages",
+      skillName: "JavaScript, HTML5, CSS"
+    },
+    {
+      skillType: "Libraries & Frameworks",
+      skillName: "Bootstrap, jQuery, MDBootstrap, Mongoose, Node, React"
+    },
+    {
+      skillType: "Databases",
+      skillName: "MongoDB, SQL"
+    },
+    {
+      skillType: "Tools & Platforms",
+      skillName: "Git, Postman, NPM, Trello, Yarn"
+    }
   ]
 };
 
