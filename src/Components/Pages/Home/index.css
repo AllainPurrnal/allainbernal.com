@@ -1,6 +1,6 @@
 /* Styling for the entire blog section */
 .blog {
-  width: 85%;
+  width: 100%;
   padding: 20px;
 }
 
@@ -11,4 +11,8 @@
 
 #postEntry {
   margin: 25px 35px;
+}
+
+.pl1 {
+  padding: 15px;
 }
