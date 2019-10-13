@@ -10,7 +10,6 @@ import bg4 from './assets/bg4.png';
 
 function Landing() {
   return(
-<<<<<<< HEAD
     <>
       <MDBCarousel activeItem={1} length={5} showControls={false} showIndicators={false} interval={8000} className="z-depth-1">
         <MDBCarouselInner>
@@ -25,15 +24,6 @@ function Landing() {
               </MDBMask>
             </MDBView>
           </MDBCarouselItem>
-=======
-    <MDBCarousel activeItem={1} length={5} showControls={false} showIndicators={false} interval={8000} className="background">
-      <MDBCarouselInner>
-        <MDBCarouselItem itemId="1">
-          <MDBView>
-            <img className="d-block w-100 img-fluid" src={bg1} alt="First slide" />
-            <MDBMask overlay='black-light' />
-          </MDBView>
->>>>>>> 1749759eeb5e9b470d2ec6a6b73ea721d04b1f41
 
           <MDBCarouselItem itemId="2">
             <MDBView>
