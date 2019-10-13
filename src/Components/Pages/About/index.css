@@ -1,12 +1,14 @@
 .aboutPage{
   align-items: flex-start;
+  /* background-color: #121212; */
+  /* color: lightgrey; */
 }
 
 /*  Contains portfolio image and page nav */
 .profileImage {
-position: -webkit-sticky;
-position: sticky;
-top: 3rem;
+/* position: -webkit-sticky; */
+/* position: sticky; */
+/* top: 3rem; */
 padding: 15px;
 }
 
@@ -30,9 +32,9 @@ li {
 
 #desc {
   float: left;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 15px;
+  /* padding-left: 50px; */
+  /* padding-right: 50px; */
+  /* padding-bottom: 15px; */
 }
 
 #sectionHeader {
