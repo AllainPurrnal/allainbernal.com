@@ -15,11 +15,11 @@ import Navigation from './Components/Navigation';
 function App() {
   return (
     <div className="App">
-      <Navigation />
+      {/* <Navigation /> */}
       <Landing />
-      <Home />
-      <About />
-      <Portfolio />
+      {/* <Home /> */}
+      {/* <About /> */}
+      {/* <Portfolio /> */}
     </div>
   );
 }
