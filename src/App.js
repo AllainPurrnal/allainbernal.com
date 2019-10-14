@@ -18,7 +18,7 @@ import About from './Components/Pages/About';
 function App() {
   return (
     <div className="App">
-      {/* <Navigation /> */}
+      <Navigation />
       <Landing websiteData={websiteData}/>
       {/* <Home /> */}
       {/* <About /> */}

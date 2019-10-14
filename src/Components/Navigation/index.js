@@ -1,17 +1,19 @@
 import React, { Component } from "react";
-import { MDBNav, MDBNavItem, MDBNavLink } from 'mdbreact';
+import { MDBNav, MDBNavItem } from 'mdbreact';
 
 //Dev Styles
 import './index.css';
 
-class Navigation extends Component {
-  render() {
-    return(
-      <div className='Navbar'>
-        
-      </div>  
-    );
-  }
+function Navigation() {
+  return (
+    <MDBNav color='pink' scrolling fixed='top' className="navbar justify-content-center">
+      <MDBNavItem to="#about">About</MDBNavItem>
+      <MDBNavItem to="#blog">Blog</MDBNavItem>
+      <MDBNavItem to="#portfolio">Portfolio</MDBNavItem>
+      <MDBNavItem to="#experience">Experience</MDBNavItem>
+      <MDBNavItem to="#resume">Resume</MDBNavItem>
+    </MDBNav>
+  )
 }
 
 export default Navigation;
