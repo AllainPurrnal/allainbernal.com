@@ -17,17 +17,17 @@ function Landing() {
             <MDBView>
               <img className="d-block img-fluid" src={bg1} alt="First slide" />
               
-              <MDBMask overlay='black-light' className='flex-center'>
+              <MDBMask overlay='black-strong' className='flex-center'>
                 <div>
                   <h1 className='white-text display-1 flex-center'>
                     <strong>Cat</strong>
                   </h1>
 
                   <h4 className='white-text display-4 flex-center'>
-                    a professional chonk
+                    <em>the professional chonk</em>
                   </h4>
 
-                  <div className="socialLinks white-text">
+                  <div className="flex-center socialLinks white-text">
                     <MDBIcon fab icon="github-square" size="3x" className='lightgrey-text m-5' fixed  />
                     <MDBIcon icon="cat" size="3x" className='lightgrey-text m-5' fixed  />
                     <MDBIcon icon="coffee mdb-gallery-view-icon" size="3x" className='lightgrey-text m-5' fixed  />
@@ -49,17 +49,17 @@ function Landing() {
             <MDBView>
               <img className="d-block img-fluid" src={bg2} alt="Second slide" />
               
-              <MDBMask overlay='black-light' className='flex-center'>
+              <MDBMask overlay='black-strong' className='flex-center'>
                 <div>
                   <h1 className='white-text display-1 flex-center'>
                     <strong>Cat</strong>
                   </h1>
 
                   <h4 className='white-text display-4 flex-center'>
-                    a professional chonk
+                    <em>the professional chonk</em>
                   </h4>
 
-                  <div className="socialLinks white-text">
+                  <div className="flex-center socialLinks white-text">
                     <MDBIcon fab icon="github-square" size="3x" className='lightgrey-text m-5' fixed  />
                     <MDBIcon icon="cat" size="3x" className='lightgrey-text m-5' fixed  />
                     <MDBIcon icon="coffee mdb-gallery-view-icon" size="3x" className='lightgrey-text m-5' fixed  />
@@ -81,17 +81,17 @@ function Landing() {
             <MDBView>
               <img className="d-block img-fluid" src={bg3} alt="Third slide" />
               
-              <MDBMask overlay='black-light' className='flex-center'>
+              <MDBMask overlay='black-strong' className='flex-center'>
                 <div>
                   <h1 className='white-text display-1 flex-center'>
                     <strong>Cat</strong>
                   </h1>
 
                   <h4 className='white-text display-4 flex-center'>
-                    a professional chonk
+                    <em>the professional chonk</em>
                   </h4>
 
-                  <div className="socialLinks white-text">
+                  <div className="flex-center socialLinks white-text">
                     <MDBIcon fab icon="github-square" size="3x" className='lightgrey-text m-5' fixed  />
                     <MDBIcon icon="cat" size="3x" className='lightgrey-text m-5' fixed  />
                     <MDBIcon icon="coffee mdb-gallery-view-icon" size="3x" className='lightgrey-text m-5' fixed  />
@@ -113,17 +113,17 @@ function Landing() {
             <MDBView>
               <img className="d-block img-fluid" src={bg4} alt="Fourth slide" />
               
-              <MDBMask overlay='black-light' className='flex-center'>
+              <MDBMask overlay='black-strong' className='flex-center'>
                 <div>
                   <h1 className='white-text display-1 flex-center'>
                     <strong>Cat</strong>
                   </h1>
 
                   <h4 className='white-text display-4 flex-center'>
-                    a professional chonk
+                    <em>the professional chonk</em>
                   </h4>
 
-                  <div className="socialLinks white-text">
+                  <div className="flex-center socialLinks white-text">
                     <MDBIcon fab icon="github-square" size="3x" className='lightgrey-text m-5' fixed  />
                     <MDBIcon icon="cat" size="3x" className='lightgrey-text m-5' fixed  />
                     <MDBIcon icon="coffee mdb-gallery-view-icon" size="3x" className='lightgrey-text m-5' fixed  />
@@ -145,17 +145,17 @@ function Landing() {
             <MDBView>
               <img className="d-block img-fluid" src={bg4} alt="Fourth slide" />
               
-              <MDBMask overlay='black-light' className='flex-center'>
+              <MDBMask overlay='black-strong' className='flex-center'>
                 <div>
                   <h1 className='white-text display-1 flex-center'>
                     <strong>Cat</strong>
                   </h1>
 
                   <h4 className='white-text display-4 flex-center'>
-                    a professional chonk
+                    <em>the professional chonk</em>
                   </h4>
 
-                  <div className="socialLinks white-text">
+                  <div className="flex-center socialLinks white-text">
                     <MDBIcon fab icon="github-square" size="3x" className='lightgrey-text m-5' fixed  />
                     <MDBIcon icon="cat" size="3x" className='lightgrey-text m-5' fixed  />
                     <MDBIcon icon="coffee mdb-gallery-view-icon" size="3x" className='lightgrey-text m-5' fixed  />

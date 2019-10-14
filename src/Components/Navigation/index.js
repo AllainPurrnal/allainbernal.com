@@ -6,7 +6,7 @@ import './index.css';
 
 function Navigation() {
   return (
-    <MDBNav color='pink' scrolling fixed='top' className="navbar justify-content-center">
+    <MDBNav color='pink' double fixed='top' className="navbar justify-content-center">
       <MDBNavItem to="#about">About</MDBNavItem>
       <MDBNavItem to="#blog">Blog</MDBNavItem>
       <MDBNavItem to="#portfolio">Portfolio</MDBNavItem>
