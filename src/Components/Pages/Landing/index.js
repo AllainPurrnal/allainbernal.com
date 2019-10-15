@@ -10,8 +10,8 @@ import bg4 from './assets/bg4.png';
 
 function Landing() {
   return(
-    <>
-      <MDBCarousel activeItem={1} length={5} showControls={false} showIndicators={false} interval={8000} className="z-depth-1">
+    <div className="background">
+      <MDBCarousel activeItem={1} length={5} showControls={false} showIndicators={false} interval={8000} className="background z-depth-1">
         <MDBCarouselInner>
           <MDBCarouselItem itemId="1">
             <MDBView>
@@ -175,7 +175,7 @@ function Landing() {
           
         </MDBCarouselInner>
       </MDBCarousel>
-    </>
+    </div>
   )
 }
 
