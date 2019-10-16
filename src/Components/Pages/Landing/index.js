@@ -1,180 +1,46 @@
 import React from 'react';
-import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBCarouselCaption, MDBView, MDBMask, MDBIcon, MDBBtn } from "mdbreact";
+import { MDBMask, MDBIcon } from 'mdbreact';
 
 //Dev Styles
 import './index.css';
-import bg1 from './assets/bg1.png';
-import bg2 from './assets/bg2.png';
-import bg3 from './assets/bg3.png';
-import bg4 from './assets/bg4.png';
+import bg1 from './assets/bg1.jpg';
+import bg2 from './assets/bg2.jpg';
+import bg3 from './assets/bg3.jpg';
+import bg4 from './assets/bg4.jpg';
+import bg5 from './assets/bg5.jpg';
+
+const styles = {
+  images:[ 
+    {backgroundImage: `url(${bg1})`}, {backgroundImage: `url(${bg2})`}, {backgroundImage: `url(${bg3})`},
+    {backgroundImage: `url(${bg4})`}, {backgroundImage: `url(${bg5})`}
+  ]
+}
+
+function randImg() {
+  // return styles.images[Math.floor(Math.random() * 5)]
+  return styles.images[4]
+}
 
 function Landing() {
   return(
-    <div className="background">
-      <MDBCarousel activeItem={1} length={5} showControls={false} showIndicators={false} interval={8000} className="background z-depth-1">
-        <MDBCarouselInner>
-          <MDBCarouselItem itemId="1">
-            <MDBView>
-              <img className="d-block img-fluid" src={bg1} alt="First slide" />
-              
-              <MDBMask overlay='black-strong' className='flex-center'>
-                <div>
-                  <h1 className='white-text display-1 flex-center'>
-                    <strong>Cat</strong>
-                  </h1>
+    <div className="bg" style={randImg()}>
+      <MDBMask overlay='black-strong' className='flex-center'>
+        <div>
+          <h1 className='white-text h1-repsonsive flex-center'>
+            <strong>Cat</strong>
+          </h1>
 
-                  <h4 className='white-text display-4 flex-center'>
-                    <em>the professional chonk</em>
-                  </h4>
+          <h4 className='white-text h4-responsive flex-center'>
+            <em>the professional chonk</em>
+          </h4>
 
-                  <div className="flex-center socialLinks white-text">
-                    <MDBIcon fab icon="github-square" size="3x" className='lightgrey-text m-5' fixed  />
-                    <MDBIcon icon="cat" size="3x" className='lightgrey-text m-5' fixed  />
-                    <MDBIcon icon="coffee mdb-gallery-view-icon" size="3x" className='lightgrey-text m-5' fixed  />
-                  </div>
-                </div>
-              </MDBMask>
-            </MDBView>
-
-            <MDBCarouselCaption>
-              <h3 className="h3-responsive">Picture description</h3>
-              <p>Data taken</p>
-              <MDBBtn floating size='lg' color='transparent' href="#about">
-                <MDBIcon icon="chevron-circle-down" size="3x" />
-              </MDBBtn>
-            </MDBCarouselCaption>
-          </MDBCarouselItem>
-
-          <MDBCarouselItem itemId="2">
-            <MDBView>
-              <img className="d-block img-fluid" src={bg2} alt="Second slide" />
-              
-              <MDBMask overlay='black-strong' className='flex-center'>
-                <div>
-                  <h1 className='white-text display-1 flex-center'>
-                    <strong>Cat</strong>
-                  </h1>
-
-                  <h4 className='white-text display-4 flex-center'>
-                    <em>the professional chonk</em>
-                  </h4>
-
-                  <div className="flex-center socialLinks white-text">
-                    <MDBIcon fab icon="github-square" size="3x" className='lightgrey-text m-5' fixed  />
-                    <MDBIcon icon="cat" size="3x" className='lightgrey-text m-5' fixed  />
-                    <MDBIcon icon="coffee mdb-gallery-view-icon" size="3x" className='lightgrey-text m-5' fixed  />
-                  </div>
-                </div>
-              </MDBMask>
-            </MDBView>
-            
-            <MDBCarouselCaption>
-              <h3 className="h3-responsive">Picture description</h3>
-              <p>Data taken</p>
-              <MDBBtn floating size='lg' color='transparent' href="#about">
-                <MDBIcon icon="chevron-circle-down" size="3x" />
-              </MDBBtn>
-            </MDBCarouselCaption>
-          </MDBCarouselItem>
-
-          <MDBCarouselItem itemId="3">
-            <MDBView>
-              <img className="d-block img-fluid" src={bg3} alt="Third slide" />
-              
-              <MDBMask overlay='black-strong' className='flex-center'>
-                <div>
-                  <h1 className='white-text display-1 flex-center'>
-                    <strong>Cat</strong>
-                  </h1>
-
-                  <h4 className='white-text display-4 flex-center'>
-                    <em>the professional chonk</em>
-                  </h4>
-
-                  <div className="flex-center socialLinks white-text">
-                    <MDBIcon fab icon="github-square" size="3x" className='lightgrey-text m-5' fixed  />
-                    <MDBIcon icon="cat" size="3x" className='lightgrey-text m-5' fixed  />
-                    <MDBIcon icon="coffee mdb-gallery-view-icon" size="3x" className='lightgrey-text m-5' fixed  />
-                  </div>
-                </div>
-              </MDBMask>
-            </MDBView>
-                        
-            <MDBCarouselCaption>
-              <h3 className="h3-responsive">Picture description</h3>
-              <p>Data taken</p>
-              <MDBBtn floating size='lg' color='transparent' href="#about">
-                <MDBIcon icon="chevron-circle-down" size="3x" />
-              </MDBBtn>
-            </MDBCarouselCaption>
-          </MDBCarouselItem>
-
-          <MDBCarouselItem itemId="4">
-            <MDBView>
-              <img className="d-block img-fluid" src={bg4} alt="Fourth slide" />
-              
-              <MDBMask overlay='black-strong' className='flex-center'>
-                <div>
-                  <h1 className='white-text display-1 flex-center'>
-                    <strong>Cat</strong>
-                  </h1>
-
-                  <h4 className='white-text display-4 flex-center'>
-                    <em>the professional chonk</em>
-                  </h4>
-
-                  <div className="flex-center socialLinks white-text">
-                    <MDBIcon fab icon="github-square" size="3x" className='lightgrey-text m-5' fixed  />
-                    <MDBIcon icon="cat" size="3x" className='lightgrey-text m-5' fixed  />
-                    <MDBIcon icon="coffee mdb-gallery-view-icon" size="3x" className='lightgrey-text m-5' fixed  />
-                  </div>
-                </div>
-              </MDBMask>
-            </MDBView>
-                        
-            <MDBCarouselCaption>
-              <h3 className="h3-responsive">Picture description</h3>
-              <p>Data taken</p>
-              <MDBBtn floating size='lg' color='transparent' href="#about">
-                <MDBIcon icon="chevron-circle-down" size="3x" />
-              </MDBBtn>
-            </MDBCarouselCaption>
-          </MDBCarouselItem>
-
-          <MDBCarouselItem itemId="5">
-            <MDBView>
-              <img className="d-block img-fluid" src={bg4} alt="Fourth slide" />
-              
-              <MDBMask overlay='black-strong' className='flex-center'>
-                <div>
-                  <h1 className='white-text display-1 flex-center'>
-                    <strong>Cat</strong>
-                  </h1>
-
-                  <h4 className='white-text display-4 flex-center'>
-                    <em>the professional chonk</em>
-                  </h4>
-
-                  <div className="flex-center socialLinks white-text">
-                    <MDBIcon fab icon="github-square" size="3x" className='lightgrey-text m-5' fixed  />
-                    <MDBIcon icon="cat" size="3x" className='lightgrey-text m-5' fixed  />
-                    <MDBIcon icon="coffee mdb-gallery-view-icon" size="3x" className='lightgrey-text m-5' fixed  />
-                  </div>
-                </div>
-              </MDBMask>
-            </MDBView>
-                        
-            <MDBCarouselCaption>
-              <h3 className="h3-responsive">Picture description</h3>
-              <p>Data taken</p>
-              <MDBBtn floating size='lg' color='transparent' href="#about">
-                <MDBIcon icon="chevron-circle-down" size="3x" />
-              </MDBBtn>
-            </MDBCarouselCaption>
-          </MDBCarouselItem>
-          
-        </MDBCarouselInner>
-      </MDBCarousel>
+          <div className="flex-center socialLinks white-text">
+            <MDBIcon fab icon="github-square" size="responsive" className='lightgrey-text m-5' fixed  />
+            <MDBIcon icon="cat" size="responsive" className='lightgrey-text m-5' fixed  />
+            <MDBIcon icon="coffee mdb-gallery-view-icon" size="responsive" className='lightgrey-text m-5' fixed  />
+          </div>
+        </div>
+      </MDBMask>
     </div>
   )
 }
