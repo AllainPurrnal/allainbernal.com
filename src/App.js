@@ -4,11 +4,10 @@ import React from 'react';
 import './App.css';
 
 //Dev Page Components
-import Navigation from './Components/Navigation';
+import Navbar from './Components/Navigation';
 
 //Dev Page Data
 import websiteData from './websiteData';
-import blogData from './Components/Pages/Home/blogData';
 
 //Dev Pages
 import Landing from './Components/Pages/Landing';
@@ -19,11 +18,11 @@ import About from './Components/Pages/About';
 function App() {
   return (
     <div className="App">
-      {/* <Navigation /> */}
-      <Landing />
+      <Navbar />
+      <Landing websiteData={websiteData}/>
       {/* <Home /> */}
-      <About />
-      <Portfolio />
+      {/* <About /> */}
+      {/* <Portfolio /> */}
     </div>
   );
 }
