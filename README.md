@@ -18,4 +18,7 @@ The goal is to keep the website uncluttered and clean while making navigation si
 - The main idea or concept with the landing page is to keep it simple but to also show as much as possible about my work and my hobbies
 - At first glance it will show my name in a subtle and modern font. Nothing too fancy that will take attention away from the background
 - The background will have a rotating set of images of my previous works and hobbies
+  - The background is currently set to random on each page refresh
 - At the bottom of the background image, there will be an arrow with a subtle animation to tell visitors of the website to scroll down to continue to the home page
+
+![landing header with navbar](https://user-images.githubusercontent.com/25943488/67040750-f83f2200-f0d8-11e9-86b5-6d7da9b90710.png)
