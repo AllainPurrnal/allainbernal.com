@@ -4,7 +4,7 @@ import React from 'react';
 import './App.css';
 
 //Dev Page Components
-import Navigation from './Components/Navigation';
+import Navbar from './Components/Navigation';
 
 //Dev Page Data
 import websiteData from './websiteData';
@@ -18,7 +18,7 @@ import About from './Components/Pages/About';
 function App() {
   return (
     <div className="App">
-      {/* <Navigation /> */}
+      <Navbar />
       <Landing websiteData={websiteData}/>
       {/* <Home /> */}
       {/* <About /> */}

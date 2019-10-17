@@ -1,3 +1,11 @@
-.background {
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* top: 0; */
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
