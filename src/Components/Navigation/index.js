@@ -7,7 +7,7 @@ import './index.css';
 function Navbar() {
   return(
       <header>
-        <MDBNavbar color='elegant-color' fixed='top' className="navbar justify-content-center">
+        <MDBNavbar color='elegant-color-dark' scrolling='true' transparent='true' fixed='top' className="navbar justify-content-center">
           <MDBNavLink id="navlink" to="#about">
             <MDBNavItem>About</MDBNavItem>
           </MDBNavLink>

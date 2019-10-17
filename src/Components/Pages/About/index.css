@@ -1,15 +1,14 @@
-.aboutPage{
-  align-items: flex-start;
-  /* background-color: #121212; */
-  /* color: lightgrey; */
+body, html {
+  background-color: #121212;
 }
 
-/*  Contains portfolio image and page nav */
+.aboutPage{
+  align-items: flex-start;
+}
+
 .profileImage {
-/* position: -webkit-sticky; */
-/* position: sticky; */
-/* top: 3rem; */
-padding: 15px;
+  padding-top: 62px;
+  padding-left: 50px;
 }
 
 #aboutNav {
@@ -19,15 +18,14 @@ padding: 15px;
   
 }
 
-li {
-  padding: 4px;
-  justify-content: center;
-}
-
-/* Contains description of background and experience */
 .my-background, .my-experience, .my-contact {
   padding: 15px 0px ;
   padding-left: 30px;
+}
+
+#sectionHeader, #desc {
+  color: #FFFFFF;
+  opacity: 87%;
 }
 
 #sectionHeader {
@@ -37,6 +35,6 @@ li {
 #desc {
   float: left;
   /* padding-left: 50px; */
-  /* padding-right: 50px; */
+  padding-right: 50px;
   /* padding-bottom: 15px; */
 }
