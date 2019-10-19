@@ -1,3 +1,13 @@
+// While this code is simple, I would like to say I'm proud of being able to simplify something that was so complicated.
+// During the first phase of this project, I had relied heavily on MDBootstrap to create and complete a personal website.
+// The more I worked on this project, the more I began to realise that over reliance on frameworks could be a handicap in the future.
+// Frameworks are very useful and make the lives of developers much easier, however; relying so heavily on frameworks at this point
+//  will do nothing for my personal growth. 
+// If I can work through problems on my own and find solutions, the more I can take away from a small piece of code.
+// I find this especially important at this stage in my career as a developer. Please feel free to look around, have a wonderful day!
+
+// The code, and project as a whole, is not yet complete.
+
 import React from 'react';
 import { MDBMask, MDBIcon } from 'mdbreact';
 
