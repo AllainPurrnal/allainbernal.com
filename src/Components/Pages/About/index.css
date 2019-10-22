@@ -25,16 +25,24 @@ body, html {
 
 #sectionHeader, #desc {
   color: #FFFFFF;
-  opacity: 87%;
+  
 }
 
 #sectionHeader {
+  width: 100px;
+  text-align: center;
   padding-top: 25px;
+  padding-bottom: 4px;
+  border-bottom-style: solid;
+  opacity: .85;
+
+  /* border-bottom-color: #FF00B4; */
+  border-bottom-color: #c70084;
+  
 }
 
 #desc {
   float: left;
-  /* padding-left: 50px; */
   padding-right: 50px;
-  /* padding-bottom: 15px; */
+  opacity: .75;
 }
