@@ -8,7 +8,7 @@ Every experience builds on to what makes me who I am.
 
 The main idea for this website is to keep things simple with the work presented speaking for itself. 
 
-The user will be able to navigate by clicking/swiping left or right on the page to bring in the next page. If the user is interested in learning more about a particular section, they can scroll/swipe down to reveal more information.
+The user will be able to scroll/swipe up to traverse the page. Information is presented in small bites to ensure that the reader/visitor does not get confused with any section.
 
 The goal is to keep the website uncluttered and clean while making navigation simple and intuitive.
 
