@@ -26,6 +26,6 @@ The goal is to keep the website uncluttered and clean while making navigation si
 **About Section**
 - This section will be fairly simple
 - A short introduction to who I am, my goals and hobbies
-- Will also contains an image of myself
+- Will also contain an image of myself
 
 ![localhost_3000_](https://user-images.githubusercontent.com/25943488/67332406-d0363100-f4d3-11e9-96c7-f78f8b177d6b.png)
