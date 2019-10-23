@@ -7,18 +7,16 @@ import me from './assets/profile1.jpg';
 
 function About() {
   return(
-      <MDBContainer className="aboutPage text-justify" id="about">
-      <MDBRow>
-
+      <MDBContainer className="aboutPage text-justify">
+      <MDBRow id="about">
         <MDBCol className='' md="3">
           <div className="profileImage">
             <img src='http://placekitten.com/225/225' className="img-fluid rounded-circle" alt='me'></img>
-            
           </div>
         </MDBCol>
         
         <MDBCol md="9">
-          <MDBRow className="my-background"  id="background">
+          <MDBRow className="my-background">
             <MDBCol>
               <h5 id="sectionHeader"><em><strong>About Me</strong></em></h5>
               
@@ -28,7 +26,6 @@ function About() {
             </MDBCol>
           </MDBRow>
         </MDBCol>
-          
       </MDBRow>
     </MDBContainer>
   )

@@ -2,20 +2,9 @@ body, html {
   background-color: #121212;
 }
 
-.aboutPage{
-  align-items: flex-start;
-}
-
 .profileImage {
   padding-top: 62px;
   padding-left: 50px;
-}
-
-#aboutNav {
-  list-style: none;
-  text-align: center;
-  padding-left: 10px;
-  
 }
 
 .my-background, .my-experience, .my-contact {
@@ -34,6 +23,7 @@ body, html {
   width: 100px;
   padding-top: 25px;
   padding-bottom: 4px;
+  border-bottom-width: 4px;
   border-bottom-style: solid;
   border-bottom-color: #c70084;
   /* border-bottom-color: #FF00B4; */
