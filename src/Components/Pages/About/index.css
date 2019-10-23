@@ -1,36 +1,36 @@
-.aboutPage{
-  align-items: flex-start;
+body, html {
+  background-color: #121212;
 }
 
-/*  Contains portfolio image and page nav */
 .profileImage {
-position: -webkit-sticky;
-position: sticky;
-top: 2rem;
+  padding-top: 62px;
+  padding-left: 50px;
 }
 
-#aboutNav {
-  list-style: none;
-}
-
-li {
-  padding: 4px;
-  justify-content: center;
-}
-
-/* Contains description of background and experience */
-.my-background, .my-experience {
+.my-background, .my-experience, .my-contact {
   padding: 15px 0px ;
   padding-left: 30px;
 }
 
-#desc {
-  float: left;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 15px;
+#sectionHeader, #desc {
+  color: #FFFFFF;
 }
 
 #sectionHeader {
+  text-align: center;
+  opacity: .85;
+
+  width: 100px;
   padding-top: 25px;
+  padding-bottom: 4px;
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+  border-bottom-color: #c70084;
+  /* border-bottom-color: #FF00B4; */
+}
+
+#desc {
+  float: left;
+  padding-right: 50px;
+  opacity: .75;
 }
