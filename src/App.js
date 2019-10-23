@@ -21,7 +21,7 @@ function App() {
       <Navbar />
       <Landing websiteData={websiteData}/>
       {/* <Home /> */}
-      {/* <About /> */}
+      <About />
       {/* <Portfolio /> */}
     </div>
   );

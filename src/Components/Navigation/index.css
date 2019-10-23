@@ -5,7 +5,7 @@
   font-size: 1rem;
 }
 
-#navlink {
+#navlink, a {
   color: inherit;
   list-style: none;
 }
