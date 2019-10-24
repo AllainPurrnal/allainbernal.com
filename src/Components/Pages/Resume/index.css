@@ -1,0 +1,24 @@
+.technicalSkills {
+  padding-top: 50px;
+  padding-bottom: 4px;
+  padding-left:215px ;
+  align-content: center;
+  color: inherit;
+}
+
+#resumeHeader {
+  color: black;
+  text-align: center;
+  /* opacity: .85; */
+
+  width: 100px;
+
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  /* border-bottom-color: #c70084; */
+  border-bottom-color: #FF00B4;
+}
+
+h6 {
+  padding-bottom: 25px;
+}

@@ -14,6 +14,7 @@ import Landing from './Components/Pages/Landing';
 import Home from './Components/Pages/Home';
 import Portfolio from './Components/Pages/Portfolio';
 import About from './Components/Pages/About';
+import Resume from './Components/Pages/Resume';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Landing websiteData={websiteData}/>
       {/* <Home /> */}
       <About />
+      <Resume />
       {/* <Portfolio /> */}
     </div>
   );
