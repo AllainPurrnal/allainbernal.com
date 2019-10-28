@@ -1,20 +1,33 @@
-.technicalSkills, .experience {
-  padding-top: 50px;
-  padding-bottom: 4px;
-  padding-left:215px ;
-  align-content: center;
-  color: inherit;
+.resume {
+  padding: 50px;
+  /* align-content: center; */
+  /* color: inherit; */
 }
 
-#resumeHeader {
+
+
+#header h4{
   color: black;
-  text-align: center;
-  /* opacity: .85; */
+  text-align: right;
 
-  width: 125px;
+  padding-right: 100px;
+  padding-bottom: 4px;
 
-  border-bottom-width: 3px;
-  border-bottom-style: solid;
-  /* border-bottom-color: #c70084; */
-  border-bottom-color: #FF00B4;
+  margin: 0 auto;
+}
+
+#header em {
+  border-bottom: 2px solid #FF00B4;
+}
+
+.skills h6 {
+  padding-bottom: 25px;
+}
+
+.experience {
+  padding-top: 25px;
+}
+
+.experience div {
+  padding-bottom: 25px;
 }

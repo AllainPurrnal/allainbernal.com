@@ -18,26 +18,20 @@ function Resume() {
 
   return (
     <MDBContainer className="resume">
-      <MDBRow className="technicalSkills">
-        <MDBCol md='3'>
-          <h4 id="resumeHeader"><em><strong>Skills</strong></em></h4>
+      <MDBRow className="skills">
+        <MDBCol id="header" size='5'>
+          <h4><em><strong>Skills</strong></em></h4>
         </MDBCol>
 
-        <MDBCol md='9'>
+        <MDBCol md='7'>
           <h4><strong>Programming Languages</strong></h4>
           <h6>HTML5 / CSS3 / JavaScript</h6>
-
-          <hr />
 
           <h4><strong>Frameworks</strong></h4>
           <h6>Bootstrap / jQuery / MDBootstrap / Mongoose / Node / React</h6>
 
-          <hr />
-
           <h4><strong>Databases</strong></h4>
           <h6>Mongoose / MySQL</h6>
-
-          <hr />
 
           <h4><strong>Tools & Platforms</strong></h4>
           <h6>Git / Postman / NPM / Trello / Yarn</h6>
@@ -45,24 +39,29 @@ function Resume() {
         </MDBCol>
       </MDBRow>
 
+      <hr />
+
       <MDBRow className="experience">
-        <MDBCol md='3'>
-          <h4 id="resumeHeader"><em><strong>Experience</strong></em></h4>
+        <MDBCol id="header" size='5'>
+          <h4><em><strong>Experience</strong></em></h4>
         </MDBCol>
 
-        <MDBCol md='9'>
-          <h4><strong><a to='https:/www.google.com'>Google</a></strong></h4>
+        <MDBCol md='7'>
+          <h4><strong><a to='https:/www.google.com'>Dark Roast</a></strong></h4>
           <h6>2017 August - 2019 August</h6>
-          <p>Role: Software Developer</p>
+          <h7>Role: <em>Coffee Developer</em></h7>
           <p>Sit wings redeye trifecta caffeine, aroma arabica java percolator aftertaste. Redeye sit, grinder, body cappuccino cream java white. Americano acerbic, galão, milk, caffeine crema dripper affogato coffee that sugar crema.</p>
-          
-          <hr />
-
-          <h4><strong><a to='https:/www.google.com'>Google</a></strong></h4>
-          <h6>2017 August - 2019 August</h6>
-          <p>Role: Software Developer</p>
+          <div />
+          <h4><strong><a to='https:/www.google.com'>Medium Roast</a></strong></h4>
+          <h6>2017 July - 2017 August</h6>
+          <h7>Role: <em>Software Developer</em></h7>
           <p>Sit wings redeye trifecta caffeine, aroma arabica java percolator aftertaste. Redeye sit, grinder, body cappuccino cream java white. Americano acerbic, galão, milk, caffeine crema dripper affogato coffee that sugar crema.</p>
-        </MDBCol>
+          <div />
+          <h4><strong><a to='https:/www.google.com'>Light Roast</a></strong></h4>
+          <h6>2015 August - 2017 July</h6>
+          <h7>Role: <em>Caffeine Addict</em></h7>
+          <p>Sit wings redeye trifecta caffeine, aroma arabica java percolator aftertaste. Redeye sit, grinder, body cappuccino cream java white. Americano acerbic, galão, milk, caffeine crema dripper affogato coffee that sugar crema.</p>
+          </MDBCol>
       </MDBRow>
     </MDBContainer>
   )
