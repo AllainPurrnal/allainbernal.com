@@ -47,19 +47,23 @@ function Resume() {
         </MDBCol>
 
         <MDBCol md='7'>
-          <h4><strong><a to='https:/www.google.com'>Dark Roast</a></strong></h4>
+          <h4><strong><a href="https:/www.google.com">Dark Roast</a></strong></h4>
+          <h5>Role: <em>Coffee Developer</em></h5>
           <h6>2017 August - 2019 August</h6>
-          <h7>Role: <em>Coffee Developer</em></h7>
           <p>Sit wings redeye trifecta caffeine, aroma arabica java percolator aftertaste. Redeye sit, grinder, body cappuccino cream java white. Americano acerbic, galão, milk, caffeine crema dripper affogato coffee that sugar crema.</p>
+          
           <div />
-          <h4><strong><a to='https:/www.google.com'>Medium Roast</a></strong></h4>
+
+          <h4><strong><a href="https:/www.google.com">Medium Roast</a></strong></h4>
+          <h5>Role: <em>Software Developer</em></h5>
           <h6>2017 July - 2017 August</h6>
-          <h7>Role: <em>Software Developer</em></h7>
           <p>Sit wings redeye trifecta caffeine, aroma arabica java percolator aftertaste. Redeye sit, grinder, body cappuccino cream java white. Americano acerbic, galão, milk, caffeine crema dripper affogato coffee that sugar crema.</p>
+          
           <div />
-          <h4><strong><a to='https:/www.google.com'>Light Roast</a></strong></h4>
+
+          <h4><strong><a href="https:/www.google.com">Light Roast</a></strong></h4>
+          <h5>Role: <em>Caffeine Addict</em></h5>
           <h6>2015 August - 2017 July</h6>
-          <h7>Role: <em>Caffeine Addict</em></h7>
           <p>Sit wings redeye trifecta caffeine, aroma arabica java percolator aftertaste. Redeye sit, grinder, body cappuccino cream java white. Americano acerbic, galão, milk, caffeine crema dripper affogato coffee that sugar crema.</p>
           </MDBCol>
       </MDBRow>

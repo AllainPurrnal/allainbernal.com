@@ -15,6 +15,10 @@
   padding-left: 30px;
 }
 
+.my-background em {
+  border-bottom: 2px solid #c70084;
+}
+
 #sectionHeader, #desc {
   color: #FFFFFF;
   margin-right: 50px;
@@ -27,10 +31,6 @@
   width: 100px;
   padding-top: 25px;
   padding-bottom: 4px;
-  border-bottom-width: 2px;
-  border-bottom-style: solid;
-  border-bottom-color: #c70084;
-  /* border-bottom-color: #FF00B4; */
 }
 
 #desc {

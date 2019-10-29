@@ -1,10 +1,10 @@
 .resume {
   padding: 50px;
-  /* align-content: center; */
-  /* color: inherit; */
 }
 
-
+.resume a {
+  color: inherit;
+}
 
 #header h4{
   color: black;
