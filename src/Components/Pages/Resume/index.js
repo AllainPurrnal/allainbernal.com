@@ -67,6 +67,8 @@ function Resume() {
           <p>Sit wings redeye trifecta caffeine, aroma arabica java percolator aftertaste. Redeye sit, grinder, body cappuccino cream java white. Americano acerbic, galão, milk, caffeine crema dripper affogato coffee that sugar crema.</p>
           </MDBCol>
       </MDBRow>
+
+      <hr />
     </MDBContainer>
   )
 }
