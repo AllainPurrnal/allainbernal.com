@@ -35,19 +35,19 @@ let websiteData = {
   skill: [
     {
       skillType: "Programming Languages",
-      skillName: "JavaScript, HTML5, CSS"
+      skillName: "JavaScript / HTML5 / CSS3"
     },
     {
-      skillType: "Libraries & Frameworks",
-      skillName: "Bootstrap, jQuery, MDBootstrap, Mongoose, Node, React"
+      skillType: "Frameworks",
+      skillName: "Bootstrap / jQuery / MDBootstrap / Mongoose / Node / React"
     },
     {
       skillType: "Databases",
-      skillName: "MongoDB, SQL"
+      skillName: "MongoDB / MySQL"
     },
     {
       skillType: "Tools & Platforms",
-      skillName: "Git, Postman, NPM, Trello, Yarn"
+      skillName: "Git / Postman / NPM / Trello / Yarn"
     }
   ]
 };

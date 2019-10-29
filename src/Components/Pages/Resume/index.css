@@ -1,0 +1,33 @@
+.resume {
+  padding: 50px;
+}
+
+.resume a {
+  color: inherit;
+}
+
+#header h4{
+  color: black;
+  text-align: right;
+
+  padding-right: 100px;
+  padding-bottom: 4px;
+
+  margin: 0 auto;
+}
+
+#header em {
+  border-bottom: 2px solid #FF00B4;
+}
+
+.skills h6 {
+  padding-bottom: 25px;
+}
+
+.experience {
+  padding-top: 25px;
+}
+
+.experience div {
+  padding-bottom: 25px;
+}
