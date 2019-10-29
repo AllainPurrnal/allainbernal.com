@@ -1,19 +1,27 @@
-body, html {
+.aboutPage {
   background-color: #121212;
+  padding: 0;
+  margin: 0;
 }
 
 .profileImage {
+  margin-left: 325px;
   padding-top: 62px;
   padding-left: 50px;
 }
 
-.my-background, .my-experience, .my-contact {
+.my-background {
   padding: 15px 0px ;
   padding-left: 30px;
 }
 
+.my-background em {
+  border-bottom: 2px solid #c70084;
+}
+
 #sectionHeader, #desc {
   color: #FFFFFF;
+  margin-right: 50px;
 }
 
 #sectionHeader {
@@ -23,14 +31,11 @@ body, html {
   width: 100px;
   padding-top: 25px;
   padding-bottom: 4px;
-  border-bottom-width: 4px;
-  border-bottom-style: solid;
-  border-bottom-color: #c70084;
-  /* border-bottom-color: #FF00B4; */
 }
 
 #desc {
+  /* width: 70%; */
   float: left;
-  padding-right: 50px;
+  padding-right: 100px;
   opacity: .75;
 }
