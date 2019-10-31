@@ -17,7 +17,7 @@ function Resume() {
   // Skills();
 
   return (
-    <MDBContainer className="resume">
+    <MDBContainer className="resume" id ="skills">
       <MDBRow className="skills">
         <MDBCol id="header" size='5'>
           <h4><em><strong>Skills</strong></em></h4>

@@ -11,15 +11,15 @@ function Navbar() {
         <Router>
           <MDBNavbar color='elegant-color-dark' scrolling='true' transparent='true' fixed='top' className="navbar justify-content-center">
             <MDBNavItem id="navlink">
-              <MDBNavLink id="navlink" to="#about">About</MDBNavLink>
+              <a href="#about"><span>About</span></a>
             </MDBNavItem>
 
             <MDBNavItem id="navlink">
-              <MDBNavLink id="navlink" to="#skills">Skills</MDBNavLink>
+              <a href="#skills"><span>Skills</span></a>
             </MDBNavItem>
 
             <MDBNavItem id="navlink">
-              <MDBNavLink id="navlink" to="#portfolio">Portfolio</MDBNavLink>
+              <a href="#portfolio"><span>Portfolio</span></a>
             </MDBNavItem>
           </MDBNavbar>
         </Router>

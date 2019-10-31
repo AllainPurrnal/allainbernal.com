@@ -8,7 +8,7 @@ import exPage from './assets/bg2.JPG';
 
 function Portfolio() {
   return(
-    <div className="portfolioPage">
+    <div className="portfolioPage" id="portfolio">
       <MDBContainer>
 
         <h4><em><strong>Current Works</strong></em></h4>
@@ -17,11 +17,6 @@ function Portfolio() {
               <MDBCardImage className="img-fluid" src={exPage} waves />
               <MDBCardBody>
                 <MDBCardTitle>Project Title</MDBCardTitle>
-                <MDBCardText>
-                  Some quick example text to build on the card title and make
-                  up the bulk of the card&apos;s content.
-                </MDBCardText>
-                {/* <MDBBtn outline href="https://www.google.com">MDBBtn</MDBBtn> */}
               </MDBCardBody>
             </MDBCard>
     
@@ -29,11 +24,6 @@ function Portfolio() {
               <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
               <MDBCardBody>
                 <MDBCardTitle>Project Title</MDBCardTitle>
-                <MDBCardText>
-                  Some quick example text to build on the card title and make
-                  up the bulk of the card&apos;s content.
-                </MDBCardText>
-                {/* <MDBBtn outline href="#">MDBBtn</MDBBtn> */}
               </MDBCardBody>
             </MDBCard>
     
@@ -41,11 +31,6 @@ function Portfolio() {
               <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
               <MDBCardBody>
                 <MDBCardTitle>Project Title</MDBCardTitle>
-                <MDBCardText>
-                  Some quick example text to build on the card title and make
-                  up the bulk of the card&apos;s content.
-                </MDBCardText>
-                {/* <MDBBtn outline href="#">MDBBtn</MDBBtn> */}
               </MDBCardBody>
             </MDBCard>
         </MDBRow>
@@ -56,11 +41,6 @@ function Portfolio() {
               <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
               <MDBCardBody>
                 <MDBCardTitle>Project Title</MDBCardTitle>
-                <MDBCardText>
-                  Some quick example text to build on the card title and make
-                  up the bulk of the card&apos;s content.
-                </MDBCardText>
-                {/* <MDBBtn outline href="#">MDBBtn</MDBBtn> */}
               </MDBCardBody>
             </MDBCard>
     
@@ -68,11 +48,6 @@ function Portfolio() {
               <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
               <MDBCardBody>
                 <MDBCardTitle>Project Title</MDBCardTitle>
-                <MDBCardText>
-                  Some quick example text to build on the card title and make
-                  up the bulk of the card&apos;s content.
-                </MDBCardText>
-                {/* <MDBBtn outline href="#">MDBBtn</MDBBtn> */}
               </MDBCardBody>
             </MDBCard>
             
@@ -80,11 +55,6 @@ function Portfolio() {
               <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
               <MDBCardBody>
                 <MDBCardTitle>Project Title</MDBCardTitle>
-                <MDBCardText>
-                  Some quick example text to build on the card title and make
-                  up the bulk of the card&apos;s content.
-                </MDBCardText>
-                {/* <MDBBtn outline href="#">MDBBtn</MDBBtn> */}
               </MDBCardBody>
             </MDBCard>
         </MDBRow>

@@ -5,7 +5,12 @@
   font-size: 1rem;
 }
 
-#navlink, a {
+#navlink{
   color: inherit;
   list-style: none;
+  padding: 5px 35px;
+}
+
+span {
+  color: white;
 }
