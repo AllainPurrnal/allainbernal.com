@@ -17,7 +17,7 @@ function Resume() {
   // Skills();
 
   return (
-    <MDBContainer className="resume">
+    <MDBContainer className="resume" id ="skills">
       <MDBRow className="skills">
         <MDBCol id="header" size='5'>
           <h4><em><strong>Skills</strong></em></h4>
@@ -67,6 +67,8 @@ function Resume() {
           <p>Sit wings redeye trifecta caffeine, aroma arabica java percolator aftertaste. Redeye sit, grinder, body cappuccino cream java white. Americano acerbic, galão, milk, caffeine crema dripper affogato coffee that sugar crema.</p>
           </MDBCol>
       </MDBRow>
+
+      <hr />
     </MDBContainer>
   )
 }

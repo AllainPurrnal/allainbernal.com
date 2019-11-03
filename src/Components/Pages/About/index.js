@@ -7,8 +7,8 @@ import me from './assets/profile1.jpg';
 
 function About() {
   return(
-    <MDBContainer fluid className="aboutPage text-justify">
-      <MDBRow id="about">
+    <MDBContainer fluid className="aboutPage text-justify" id="about">
+      <MDBRow>
         <MDBCol className='' md="5">
           <div className="profileImage">
             <img src='http://placekitten.com/225/225' className="img-fluid rounded-circle" alt='me'></img>
