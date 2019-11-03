@@ -1,11 +1,24 @@
 .portfolioPage {
-  padding: 25px;
-  margin: 10px;
+  /* padding: 25px; */
+  /* margin: 10px; */
   align-content: center;
+}
+
+.portfolioPage h4 {
+  color: #000000;
+}
+
+.portfolioPage strong {
+  border-bottom: 2px solid #FF00B4;
+}
+
+.projects {
+  padding-bottom: 25px;
 }
 
 .projDiv {
   background-color: white;
-  margin: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   align-content: center;
 }

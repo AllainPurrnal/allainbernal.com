@@ -24,7 +24,7 @@ function App() {
       {/* <Home /> */}
       <About />
       <Resume />
-      {/* <Portfolio /> */}
+      <Portfolio />
     </div>
   );
 }

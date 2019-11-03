@@ -1,5 +1,5 @@
 import React from 'react';
-import { MDBContainer, MDBRow, MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText } from "mdbreact";
+import { MDBContainer, MDBRow, MDBCol, MDBView, MDBMask, MDBCardTitle } from "mdbreact";
 
 //Dev Styles
 import './index.css';
@@ -8,86 +8,79 @@ import exPage from './assets/bg2.JPG';
 
 function Portfolio() {
   return(
-    <div className="portfolioPage">
+    <div className="portfolioPage" id="portfolio">
       <MDBContainer>
 
-        <h3>Current Works</h3>
-        <MDBRow>
-            <MDBCard className='projDiv' style={{ width: "22rem" }}>
-              <MDBCardImage className="img-fluid" src={exPage} waves />
-              <MDBCardBody>
-                <MDBCardTitle>Card title</MDBCardTitle>
-                <MDBCardText>
-                  Some quick example text to build on the card title and make
-                  up the bulk of the card&apos;s content.
-                </MDBCardText>
-                <MDBBtn outline href="https://www.google.com">MDBBtn</MDBBtn>
-              </MDBCardBody>
-            </MDBCard>
-    
-            <MDBCard className='projDiv' style={{ width: "22rem" }}>
-              <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
-              <MDBCardBody>
-                <MDBCardTitle>Card title</MDBCardTitle>
-                <MDBCardText>
-                  Some quick example text to build on the card title and make
-                  up the bulk of the card&apos;s content.
-                </MDBCardText>
-                <MDBBtn outline href="#">MDBBtn</MDBBtn>
-              </MDBCardBody>
-            </MDBCard>
-    
-            <MDBCard className='projDiv' style={{ width: "22rem" }}>
-              <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
-              <MDBCardBody>
-                <MDBCardTitle>Card title</MDBCardTitle>
-                <MDBCardText>
-                  Some quick example text to build on the card title and make
-                  up the bulk of the card&apos;s content.
-                </MDBCardText>
-                <MDBBtn outline href="#">MDBBtn</MDBBtn>
-              </MDBCardBody>
-            </MDBCard>
+        <h4><em><strong>Current Works</strong></em></h4>
+        <MDBRow className="projects">
+          <MDBCol className='projDiv' md="4">
+            <MDBView hover>
+              <img src={exPage} className="img-fluid" alt="" />
+                <a href="http://www.google.com">
+                  <MDBMask className="flex-center" overlay="black-light">
+                    <p className="white-text">Brief project description</p>
+                  </MDBMask>
+                </a>
+            </MDBView>
+          </MDBCol>
+
+          <MDBCol className='projDiv' md="4">
+            <MDBView hover>
+              <img src={exPage} className="img-fluid" alt="" />
+                <a href="http://www.google.com">
+                  <MDBMask className="flex-center" overlay="black-light">
+                    <p className="white-text">Brief project description</p>
+                  </MDBMask>
+                </a>
+            </MDBView>
+          </MDBCol>
+
+          <MDBCol className='projDiv' md="4">
+            <MDBView hover>
+              <img src={exPage} className="img-fluid" alt="" />
+                <a href="http://www.google.com">
+                  <MDBMask className="flex-center" overlay="black-light">
+                    <p className="white-text">Brief project description</p>
+                  </MDBMask>
+                </a>
+            </MDBView>
+          </MDBCol>
         </MDBRow>
-    
-        <hr></hr>
-        <h3>Previous Works</h3>
-        <MDBRow>
-            <MDBCard className='projDiv' style={{ width: "22rem" }}>
-              <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
-              <MDBCardBody>
-                <MDBCardTitle>Card title</MDBCardTitle>
-                <MDBCardText>
-                  Some quick example text to build on the card title and make
-                  up the bulk of the card&apos;s content.
-                </MDBCardText>
-                <MDBBtn outline href="#">MDBBtn</MDBBtn>
-              </MDBCardBody>
-            </MDBCard>
-    
-            <MDBCard className='projDiv' style={{ width: "22rem" }}>
-              <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
-              <MDBCardBody>
-                <MDBCardTitle>Card title</MDBCardTitle>
-                <MDBCardText>
-                  Some quick example text to build on the card title and make
-                  up the bulk of the card&apos;s content.
-                </MDBCardText>
-                <MDBBtn outline href="#">MDBBtn</MDBBtn>
-              </MDBCardBody>
-            </MDBCard>
-            
-            <MDBCard className='projDiv' style={{ width: "22rem" }}>
-              <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
-              <MDBCardBody>
-                <MDBCardTitle>Card title</MDBCardTitle>
-                <MDBCardText>
-                  Some quick example text to build on the card title and make
-                  up the bulk of the card&apos;s content.
-                </MDBCardText>
-                <MDBBtn outline href="#">MDBBtn</MDBBtn>
-              </MDBCardBody>
-            </MDBCard>
+
+        <h4><em><strong>Previous Works</strong></em></h4>
+        <MDBRow className="projects">
+        <MDBCol className='projDiv' md="4">
+            <MDBView hover>
+              <img src={exPage} className="img-fluid" alt="" />
+                <a href="http://www.google.com">
+                  <MDBMask className="flex-center" overlay="black-light">
+                    <p className="white-text">Brief project description</p>
+                  </MDBMask>
+                </a>
+            </MDBView>
+          </MDBCol>
+
+          <MDBCol className='projDiv' md="4">
+            <MDBView hover>
+              <img src={exPage} className="img-fluid" alt="" />
+                <a href="http://www.google.com">
+                  <MDBMask className="flex-center" overlay="black-light">
+                    <p className="white-text">Brief project description</p>
+                  </MDBMask>
+                </a>
+            </MDBView>
+          </MDBCol>
+
+          <MDBCol className='projDiv' md="4">
+            <MDBView hover>
+              <img src={exPage} className="img-fluid" alt="" />
+                <a href="http://www.google.com">
+                  <MDBMask className="flex-center" overlay="black-light">
+                    <p className="white-text">Brief project description</p>
+                  </MDBMask>
+                </a>
+            </MDBView>
+          </MDBCol>
         </MDBRow>
     
       </MDBContainer>
