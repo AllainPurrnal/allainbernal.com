@@ -1,8 +1,19 @@
+header {
+  max-width: 100%;
+  margin: 0;
+  padding: 0 auto;
+  border: 0;
+}
+
 .navbar {
-  position: sticky;
+  /* position: relative; */
   top: 0;
   color: #FFFFFF;
   font-size: 1rem;
+  max-width: 100%;
+  margin: 0;
+  padding: 0 auto;
+  border: 0;
 }
 
 #navlink{

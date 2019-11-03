@@ -12,8 +12,13 @@
   border-bottom: 2px solid #FF00B4;
 }
 
+.projects {
+  padding-bottom: 25px;
+}
+
 .projDiv {
   background-color: white;
-  margin: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   align-content: center;
 }

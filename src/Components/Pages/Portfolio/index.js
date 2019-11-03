@@ -1,5 +1,5 @@
 import React from 'react';
-import { MDBContainer, MDBRow, MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText } from "mdbreact";
+import { MDBContainer, MDBRow, MDBCol, MDBView, MDBMask, MDBCardTitle } from "mdbreact";
 
 //Dev Styles
 import './index.css';
@@ -12,51 +12,75 @@ function Portfolio() {
       <MDBContainer>
 
         <h4><em><strong>Current Works</strong></em></h4>
-        <MDBRow>
-            <MDBCard className='projDiv z-depth-0' style={{ width: "22rem" }}>
-              <MDBCardImage className="img-fluid" src={exPage} waves />
-              <MDBCardBody>
-                <MDBCardTitle>Project Title</MDBCardTitle>
-              </MDBCardBody>
-            </MDBCard>
-    
-            <MDBCard className='projDiv z-depth-0' style={{ width: "22rem" }}>
-              <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
-              <MDBCardBody>
-                <MDBCardTitle>Project Title</MDBCardTitle>
-              </MDBCardBody>
-            </MDBCard>
-    
-            <MDBCard className='projDiv z-depth-0' style={{ width: "22rem" }}>
-              <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
-              <MDBCardBody>
-                <MDBCardTitle>Project Title</MDBCardTitle>
-              </MDBCardBody>
-            </MDBCard>
+        <MDBRow className="projects">
+          <MDBCol className='projDiv' md="4">
+            <MDBView hover>
+              <img src={exPage} className="img-fluid" alt="" />
+                <a href="http://www.google.com">
+                  <MDBMask className="flex-center" overlay="black-light">
+                    <p className="white-text">Brief project description</p>
+                  </MDBMask>
+                </a>
+            </MDBView>
+          </MDBCol>
+
+          <MDBCol className='projDiv' md="4">
+            <MDBView hover>
+              <img src={exPage} className="img-fluid" alt="" />
+                <a href="http://www.google.com">
+                  <MDBMask className="flex-center" overlay="black-light">
+                    <p className="white-text">Brief project description</p>
+                  </MDBMask>
+                </a>
+            </MDBView>
+          </MDBCol>
+
+          <MDBCol className='projDiv' md="4">
+            <MDBView hover>
+              <img src={exPage} className="img-fluid" alt="" />
+                <a href="http://www.google.com">
+                  <MDBMask className="flex-center" overlay="black-light">
+                    <p className="white-text">Brief project description</p>
+                  </MDBMask>
+                </a>
+            </MDBView>
+          </MDBCol>
         </MDBRow>
 
         <h4><em><strong>Previous Works</strong></em></h4>
-        <MDBRow>
-            <MDBCard className='projDiv z-depth-0' style={{ width: "22rem" }}>
-              <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
-              <MDBCardBody>
-                <MDBCardTitle>Project Title</MDBCardTitle>
-              </MDBCardBody>
-            </MDBCard>
-    
-            <MDBCard className='projDiv z-depth-0' style={{ width: "22rem" }}>
-              <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
-              <MDBCardBody>
-                <MDBCardTitle>Project Title</MDBCardTitle>
-              </MDBCardBody>
-            </MDBCard>
-            
-            <MDBCard className='projDiv z-depth-0' style={{ width: "22rem" }}>
-              <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" waves />
-              <MDBCardBody>
-                <MDBCardTitle>Project Title</MDBCardTitle>
-              </MDBCardBody>
-            </MDBCard>
+        <MDBRow className="projects">
+        <MDBCol className='projDiv' md="4">
+            <MDBView hover>
+              <img src={exPage} className="img-fluid" alt="" />
+                <a href="http://www.google.com">
+                  <MDBMask className="flex-center" overlay="black-light">
+                    <p className="white-text">Brief project description</p>
+                  </MDBMask>
+                </a>
+            </MDBView>
+          </MDBCol>
+
+          <MDBCol className='projDiv' md="4">
+            <MDBView hover>
+              <img src={exPage} className="img-fluid" alt="" />
+                <a href="http://www.google.com">
+                  <MDBMask className="flex-center" overlay="black-light">
+                    <p className="white-text">Brief project description</p>
+                  </MDBMask>
+                </a>
+            </MDBView>
+          </MDBCol>
+
+          <MDBCol className='projDiv' md="4">
+            <MDBView hover>
+              <img src={exPage} className="img-fluid" alt="" />
+                <a href="http://www.google.com">
+                  <MDBMask className="flex-center" overlay="black-light">
+                    <p className="white-text">Brief project description</p>
+                  </MDBMask>
+                </a>
+            </MDBView>
+          </MDBCol>
         </MDBRow>
     
       </MDBContainer>
