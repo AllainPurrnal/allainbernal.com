@@ -6,14 +6,12 @@
 }
 
 .profileImage {
-  margin-left: 325px;
-  padding-top: 62px;
-  padding-left: 50px;
+  padding: 10px;
 }
 
 .my-background {
-  padding: 15px 0px ;
-  padding-left: 30px;
+  padding: 25px;
+  padding-bottom: 0px;
 }
 
 .my-background em {
@@ -22,21 +20,24 @@
 
 #sectionHeader, #desc {
   color: #FFFFFF;
-  margin-right: 50px;
 }
 
 #sectionHeader {
   text-align: center;
   opacity: .85;
-
-  width: 100px;
-  padding-top: 25px;
-  padding-bottom: 4px;
 }
 
 #desc {
-  /* width: 70%; */
-  float: left;
-  padding-right: 100px;
   opacity: .75;
 }
+
+@media (min-width: 992px) {
+  .profileImage {
+    padding-left: 63%;
+  }
+
+  .my-background {
+    padding-left: 7.5%;
+    padding-right: 15%;
+  }
+}  /* Viewport: Desktops */
