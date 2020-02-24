@@ -7,18 +7,11 @@ import './index.css';
 //Dev Page Data
 import data from'../../../websiteData.js'
 
-const skills = (data) => {
-
+const skillType = (skill) => {
   // This loops through the skill types
-  for (let i = 0; i < data.length; i++) {
-    let type = data[i].skillType;
+  for (let i = 0; i < skill.length; i++) {
+    let type = skill[i].type;
     console.log(type)
-
-    // This loops through the skill names in each type
-    for (let j = 0; j < data[i].skillName.length ; j++) {
-      let name = data[i].skillName[j]
-      console.log(name)
-    }
 
   }
 }
@@ -33,19 +26,19 @@ function Resume() {
         </MDBCol>
 
         <MDBCol md='7'>
-          {/* {skills(data.skill)} */}
+          {skillType(data.skill)}
 
-          <h4><strong>{data.skill[0].skillType}</strong></h4>
-          <h6>{data.skill[0].skillName[0]} / {data.skill[0].skillName[1]} / {data.skill[0].skillName[2]}</h6>
+          <h4><strong>{data.skill[0].type}</strong></h4>
+          <h6>{data.skill[0].name[0]} / {data.skill[0].name[1]} / {data.skill[0].name[2]}</h6>
 
-          <h4><strong>{data.skill[1].skillType}</strong></h4>
-          <h6>{data.skill[1].skillName[0]} / {data.skill[1].skillName[1]} / {data.skill[1].skillName[2]} / {data.skill[1].skillName[3]} / {data.skill[1].skillName[4]} / {data.skill[1].skillName[5]}</h6>
+          <h4><strong>{data.skill[1].type}</strong></h4>
+          <h6>{data.skill[1].name[0]} / {data.skill[1].name[1]} / {data.skill[1].name[2]} / {data.skill[1].name[3]} / {data.skill[1].name[4]} / {data.skill[1].name[5]}</h6>
 
-          <h4><strong>{data.skill[2].skillType}</strong></h4>
-          <h6>{data.skill[2].skillName[0]}</h6>
+          <h4><strong>{data.skill[2].type}</strong></h4>
+          <h6>{data.skill[2].name[0]}</h6>
 
-          <h4><strong>{data.skill[3].skillType}</strong></h4>
-          <h6>{data.skill[3].skillName[0]} / {data.skill[3].skillName[1]} / {data.skill[3].skillName[2]} / {data.skill[3].skillName[3]} / {data.skill[3].skillName[4]} / {data.skill[3].skillName[5]}</h6>
+          <h4><strong>{data.skill[3].type}</strong></h4>
+          <h6>{data.skill[3].name[0]} / {data.skill[3].name[1]} / {data.skill[3].name[2]} / {data.skill[3].name[3]} / {data.skill[3].name[4]} / {data.skill[3].name[5]}</h6>
 
         </MDBCol>
       </MDBRow>
