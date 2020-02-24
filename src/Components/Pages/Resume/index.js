@@ -4,17 +4,26 @@ import { MDBContainer, MDBRow, MDBCol } from 'mdbreact';
 // Dev styles
 import './index.css';
 
-// Dev data
-import websiteData from '../../../websiteData';
+//Dev Page Data
+import data from'../../../websiteData.js'
 
-function Skills() {
-  let i = 0;
-  console.log(websiteData.skill.length)
+const skills = (data) => {
 
+  // This loops through the skill types
+  for (let i = 0; i < data.length; i++) {
+    let type = data[i].skillType;
+    console.log(type)
+
+    // This loops through the skill names in each type
+    for (let j = 0; j < data[i].skillName.length ; j++) {
+      let name = data[i].skillName[j]
+      console.log(name)
+    }
+
+  }
 }
 
 function Resume() {
-  // Skills();
 
   return (
     <MDBContainer className="resume" id ="skills">
@@ -24,17 +33,19 @@ function Resume() {
         </MDBCol>
 
         <MDBCol md='7'>
-          <h4><strong>Programming Languages</strong></h4>
-          <h6>HTML5 / CSS3 / JavaScript</h6>
+          {/* {skills(data.skill)} */}
 
-          <h4><strong>Frameworks</strong></h4>
-          <h6>Bootstrap / jQuery / MDBootstrap / Mongoose / Node / React</h6>
+          <h4><strong>{data.skill[0].skillType}</strong></h4>
+          <h6>{data.skill[0].skillName[0]} / {data.skill[0].skillName[1]} / {data.skill[0].skillName[2]}</h6>
 
-          <h4><strong>Databases</strong></h4>
-          <h6>Mongoose / MySQL</h6>
+          <h4><strong>{data.skill[1].skillType}</strong></h4>
+          <h6>{data.skill[1].skillName[0]} / {data.skill[1].skillName[1]} / {data.skill[1].skillName[2]} / {data.skill[1].skillName[3]} / {data.skill[1].skillName[4]} / {data.skill[1].skillName[5]}</h6>
 
-          <h4><strong>Tools & Platforms</strong></h4>
-          <h6>Git / Postman / NPM / Trello / Yarn</h6>
+          <h4><strong>{data.skill[2].skillType}</strong></h4>
+          <h6>{data.skill[2].skillName[0]}</h6>
+
+          <h4><strong>{data.skill[3].skillType}</strong></h4>
+          <h6>{data.skill[3].skillName[0]} / {data.skill[3].skillName[1]} / {data.skill[3].skillName[2]} / {data.skill[3].skillName[3]} / {data.skill[3].skillName[4]} / {data.skill[3].skillName[5]}</h6>
 
         </MDBCol>
       </MDBRow>

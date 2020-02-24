@@ -27,27 +27,35 @@ let websiteData = {
       projectDesc: "A personal website that is ever evolving"
     },
     {
-      projectName: "",
-      projectLink: "",
-      projectDesc: ""
+      projectName: "Cat Clicky",
+      projectLink: "https://github.com/AllainPurrnal/Cat-Clicky-Game",
+      projectDesc: "A simple memory game built with React and Cats"
     }
   ],
   skill: [
     {
       skillType: "Programming Languages",
-      skillName: "JavaScript / HTML5 / CSS3"
+      skillName: [
+        "HTML5", "CSS3", "JavaScript"
+      ]
     },
     {
       skillType: "Frameworks",
-      skillName: "Bootstrap / jQuery / MDBootstrap / Mongoose / Node / React"
+      skillName: [
+        "Bootstrap", "jQuery", "MDBootstrap", "Node.js", "React", "Redux"
+      ]
     },
     {
       skillType: "Databases",
-      skillName: "MongoDB / MySQL"
+      skillName: [
+        "MongoDB"
+      ]
     },
     {
       skillType: "Tools & Platforms",
-      skillName: "Git / Postman / NPM / Trello / Yarn"
+      skillName: [
+        "Git", "Postman", "NPM", "Trello", "Yarn", "AdobeXD"
+      ]
     }
   ]
 };

@@ -4,13 +4,11 @@ import { MDBContainer, MDBRow, MDBCol, MDBView, MDBMask, MDBCardTitle } from "md
 //Dev Styles
 import './index.css';
 import exPage from './assets/bg2.JPG';
-//Dev Page Components
 
 function Portfolio() {
   return(
     <div className="portfolioPage" id="portfolio">
       <MDBContainer>
-
         <h4><em><strong>Current Works</strong></em></h4>
         <MDBRow className="projects">
           <MDBCol className='projDiv' md="4">
