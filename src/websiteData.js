@@ -17,18 +17,24 @@ let websiteData = {
   ],
   experience: [
     {
-
+      role: "Coffee Developer",
+      period: {
+        startDate: "",
+        endDate: ""
+      }
     }
   ],
   portfolio: [
     {
       projectName: "allainbernal.com",
-      projectLink: "https://github.com/AllainPurrnal/allainbernal.com",
+      projectLink: "www.allainbernal.com",
+      projectGit: "https://github.com/AllainPurrnal/allainbernal.com",
       projectDesc: "A personal website that is ever evolving"
     },
     {
       projectName: "Cat Clicky",
-      projectLink: "https://github.com/AllainPurrnal/Cat-Clicky-Game",
+      projectLink: "https://cat-clicky-game.herokuapp.com/",
+      projectGit: "https://github.com/AllainPurrnal/Cat-Clicky-Game",
       projectDesc: "A simple memory game built with React and Cats"
     }
   ],

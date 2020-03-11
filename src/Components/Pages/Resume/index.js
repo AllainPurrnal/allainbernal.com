@@ -5,7 +5,7 @@ import { MDBContainer, MDBRow, MDBCol } from 'mdbreact';
 import './index.css';
 
 //Dev Page Data
-import data from'../../../websiteData.js'
+import data from'../../../websiteData.js';
 
 const skillType = (skill) => {
   // This loops through the skill types
@@ -27,6 +27,7 @@ function Resume() {
 
         <MDBCol md='7'>
           {skillType(data.skill)}
+          {console.log(Date.now)}
 
           <h4><strong>{data.skill[0].type}</strong></h4>
           <h6>{data.skill[0].name[0]} / {data.skill[0].name[1]} / {data.skill[0].name[2]}</h6>
