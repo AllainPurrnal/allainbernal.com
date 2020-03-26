@@ -1,5 +1,6 @@
 import React from 'react';
-import { MDBMask, MDBIcon } from 'mdbreact';
+import { MDBMask } from 'mdbreact';
+// import { MDBMask, MDBIcon } from 'mdbreact';
 
 //Dev Styles
 import './index.css';
@@ -17,28 +18,30 @@ const styles = {
 }
 
 function randImg() {
-  // return styles.images[Math.floor(Math.random() * 5)]
-  return styles.images[4]
+  return styles.images[Math.floor(Math.random() * 5)]
+  // return styles.images[4]
 }
 
-function Landing() {
+const Landing = ({ data }) => {
+  console.log("In Landing.js", data.name, data.role)
+
   return(
     <div className="bg" style={randImg()}>
       <MDBMask overlay='black-strong' className='flex-center'>
         <div>
           <h1 className='white-text h1-repsonsive flex-center'>
-            <strong>Cat</strong>
+            <strong>{data.name}</strong>
           </h1>
 
           <h4 className='white-text h4-responsive flex-center'>
-            <em>the professional chonk</em>
+            <em>{data.role}</em>
           </h4>
 
-          <div className="flex-center socialLinks white-text">
+          {/* <div className="flex-center socialLinks white-text">
             <MDBIcon fab icon="github-square" size="responsive" className='lightgrey-text m-5' fixed  />
             <MDBIcon icon="cat" size="responsive" className='lightgrey-text m-5' fixed  />
             <MDBIcon icon="coffee mdb-gallery-view-icon" size="responsive" className='lightgrey-text m-5' fixed  />
-          </div>
+          </div> */}
         </div>
       </MDBMask>
     </div>
