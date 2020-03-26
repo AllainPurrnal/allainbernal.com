@@ -3,7 +3,7 @@ import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 
 // Dev Styles
 import './index.css';
-import me from './assets/profile1.jpg';
+// import me from './assets/profile1.jpg';
 
 function About() {
   return(
@@ -11,7 +11,7 @@ function About() {
       <MDBRow>
         <MDBCol className='' md="5">
           <div className="profileImage">
-            <img src='http://placekitten.com/225/225' className="img-fluid rounded-circle" alt='me'></img>
+            <img src='' className="img-fluid rounded-circle" alt='me'></img>
           </div>
         </MDBCol>
         

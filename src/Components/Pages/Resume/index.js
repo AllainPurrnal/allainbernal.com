@@ -8,10 +8,20 @@ import './index.css';
 import data from'../../../websiteData.js';
 
 const skillType = (skill) => {
+  // let headBuilder = "";
+  // let llistBuilder = "";
+  // let testOutput = "";
+
   // This loops through the skill types
   for (let i = 0; i < skill.length; i++) {
     let type = skill[i].type;
     console.log(type)
+
+    // This loops through the each skill type's name
+    for (let j = 0; j < skill[i].name.length; j++) {
+      let name = skill[i].name[j];
+      console.log(name)
+    }
 
   }
 }

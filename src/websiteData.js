@@ -1,6 +1,7 @@
 let websiteData = {
   name: "Allain Bernal",
   role: "Full-Stack Web Developer",
+  aboutMe: "",
   contactInfo: {
     phone: "(925)338-1949",
     email: "me@allainbernal.com"
@@ -17,10 +18,10 @@ let websiteData = {
   ],
   experience: [
     {
-      role: "Coffee Developer",
+      role: "Contributor",
       period: {
-        startDate: "",
-        endDate: ""
+        startDate: "January 01, 2020",
+        endDate: "Present"
       }
     }
   ],
@@ -60,7 +61,7 @@ let websiteData = {
     {
       type: "Tools & Platforms",
       name: [
-        "Git", "Postman", "NPM", "Trello", "Yarn", "AdobeXD"
+        "AdobeXD", "Git", "Postman", "NPM", "Trello", "Yarn"
       ]
     }
   ]

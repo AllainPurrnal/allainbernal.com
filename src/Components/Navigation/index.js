@@ -1,6 +1,6 @@
 import React from 'react';
-import { MDBNavbar, MDBNavItem, MDBNavLink } from 'mdbreact';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { MDBNavbar, MDBNavItem } from 'mdbreact';
+// import { BrowserRouter as Router } from 'react-router-dom';
 
 //Dev Styles
 import './index.css';
