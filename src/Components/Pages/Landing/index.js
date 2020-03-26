@@ -23,7 +23,7 @@ function randImg() {
 }
 
 const Landing = ({ data }) => {
-  console.log("In Landing.js", data.name, data.role)
+  // console.log("In Landing.js", data.name, data.role)
 
   return(
     <div className="bg" style={randImg()}>
