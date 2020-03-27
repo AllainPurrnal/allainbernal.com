@@ -5,7 +5,7 @@ import { MDBContainer, MDBRow, MDBCol } from 'mdbreact';
 import './index.css';
 
 // Dev Components
-import Skills from '../../Skills.js';
+import Skills from './Skills.js';
 
 const Resume = ({ skills, experience }) => {
   console.log("In Resume.js", skills, experience)
