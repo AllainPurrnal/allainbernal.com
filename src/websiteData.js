@@ -16,29 +16,6 @@ let websiteData = {
       link: "https://github.com/AllainPurrnal"
     }
   ],
-  experience: [
-    {
-      role: "Contributor",
-      period: {
-        startDate: "January 01, 2020",
-        endDate: "Present"
-      }
-    }
-  ],
-  portfolio: [
-    {
-      name: "allainbernal.com",
-      link: "www.allainbernal.com",
-      git: "https://github.com/AllainPurrnal/allainbernal.com",
-      description: "A personal website that is ever evolving"
-    },
-    {
-      name: "Cat Clicky",
-      link: "https://cat-clicky-game.herokuapp.com/",
-      git: "https://github.com/AllainPurrnal/Cat-Clicky-Game",
-      description: "A simple memory game built with React and Cats"
-    }
-  ],
   skills: [
     {
       id: 1,
@@ -67,6 +44,46 @@ let websiteData = {
       name: [
         "AdobeXD", "Git", "Postman", "NPM", "Trello", "Yarn"
       ]
+    }
+  ],
+  experience: [
+    {
+      id: 1,
+      company: "Open Oakland",
+      link: "https://openoakland.org/",
+      role: "Contributor",
+      period: {
+        startDate: "January 01, 2020",
+        endDate: "Present"
+      },
+      description: "Sit wings redeye trifecta caffeine, aroma arabica java percolator aftertaste. Redeye sit, grinder, body cappuccino cream java white. Americano acerbic, galão, milk, caffeine crema dripper affogato coffee that sugar crema."
+    },
+    {
+      id: 2,
+      company: "Upwork",
+      link: "https://upwork.com/",
+      role: "Freelance Web Developer",
+      period: {
+        startDate: "January 01, 2020",
+        endDate: "Present"
+      },
+      description: "Sit wings redeye trifecta caffeine, aroma arabica java percolator aftertaste. Redeye sit, grinder, body cappuccino cream java white. Americano acerbic, galão, milk, caffeine crema dripper affogato coffee that sugar crema."
+    }
+  ],
+  portfolio: [
+    {
+      id: 1,
+      name: "allainbernal.com",
+      link: "www.allainbernal.com",
+      git: "https://github.com/AllainPurrnal/allainbernal.com",
+      description: "A personal website that is ever evolving"
+    },
+    {
+      id: 2,
+      name: "Cat Clicky",
+      link: "https://cat-clicky-game.herokuapp.com/",
+      git: "https://github.com/AllainPurrnal/Cat-Clicky-Game",
+      description: "A simple memory game built with React and Cats"
     }
   ]
 };
