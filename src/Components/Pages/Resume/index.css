@@ -1,9 +1,13 @@
 .resume {
-  padding: 50px;
+  padding: 25px;
 }
 
 .resume a {
   color: inherit;
+}
+
+#header {
+  padding-bottom: 25px;
 }
 
 #header h4{
@@ -16,6 +20,7 @@
   margin: 0 auto;
 }
 
+/* Pink underline for the Section Header */
 #header em {
   border-bottom: 2px solid #FF00B4;
 }
@@ -26,8 +31,4 @@
 
 .experience {
   padding-top: 25px;
-}
-
-.experience div {
-  padding-bottom: 25px;
 }

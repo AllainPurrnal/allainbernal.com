@@ -9,7 +9,8 @@ import projTwo from './assets/clickygame.webp';
 //Dev Page Data
 import data from'../../../websiteData.js';
 
-function Portfolio() {
+const Portfolio = ({ portfolio }) => {
+  // console.log("In Portfolio.js", portfolio
   return(
     <div className="portfolioPage" id="portfolio">
       <MDBContainer>

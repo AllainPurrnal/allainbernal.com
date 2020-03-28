@@ -8,3 +8,8 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.bg strong, .bg em {
+  color: white;
+  opacity: .8;
+}

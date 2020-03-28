@@ -1,42 +1,34 @@
 .aboutPage {
-  background-color: #121212;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin: 0;
+  /* background-color: #121212; */
+  padding: 25px;
 }
 
-.profileImage {
-  margin-left: 325px;
-  padding-top: 62px;
-  padding-left: 50px;
+#headerAbout {
+  padding-bottom: 25px;
 }
 
-.my-background {
-  padding: 15px 0px ;
-  padding-left: 30px;
+#headerAbout h4{
+  text-align: right;
+  opacity: .8;
+
+  padding-right: 100px;
+  padding-bottom: 4px;
+
+  margin: 0 auto;
 }
 
-.my-background em {
+
+/* Pink underline for the Section Header */
+#headerAbout em {
   border-bottom: 2px solid #c70084;
 }
 
-#sectionHeader, #desc {
-  color: #FFFFFF;
-  margin-right: 50px;
-}
-
-#sectionHeader {
-  text-align: center;
-  opacity: .85;
-
-  width: 100px;
-  padding-top: 25px;
-  padding-bottom: 4px;
+#headerAbout strong {
+  color: white;
 }
 
 #desc {
-  /* width: 70%; */
-  float: left;
-  padding-right: 100px;
-  opacity: .75;
+  color: #FFFFFF;
+  opacity: .8;
 }
+

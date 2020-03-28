@@ -29,11 +29,11 @@ const Landing = ({ data }) => {
     <div className="bg" style={randImg()}>
       <MDBMask overlay='black-strong' className='flex-center'>
         <div>
-          <h1 className='white-text h1-repsonsive flex-center'>
+          <h1 className='h1-repsonsive flex-center'>
             <strong>{data.name}</strong>
           </h1>
 
-          <h4 className='white-text h4-responsive flex-center'>
+          <h4 className='h4-responsive flex-center'>
             <em>{data.role}</em>
           </h4>
 
