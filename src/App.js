@@ -16,7 +16,7 @@ import Resume from './Components/Pages/Resume';
 import data from './websiteData';
 
 function App() {
-  console.log("In App.js", data.portfolio)
+  // console.log("In App.js", data.portfolio)
 
   return (
     <div className="App">

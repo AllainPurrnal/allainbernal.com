@@ -9,7 +9,7 @@ import Skills from './Skills.js';
 import Experience from './Experience.js';
 
 const Resume = ({ skills, experience }) => {
-  console.log("In Resume.js", skills, experience)
+  // console.log("In Resume.js", skills, experience)
 
   let skillsPrint = skills.map((skill, id) => 
     <Skills key={skill.id} skill={skill} />

@@ -6,7 +6,7 @@ import './index.css';
 // import me from './assets/profile1.jpg';
 
 const About = ({ data }) => {
-  console.log("In About.js", data.about)
+  // console.log("In About.js", data.about)
   
   return(
     <MDBContainer className="aboutPage text-justify" id="about">
