@@ -10,13 +10,13 @@ import Navbar from './Components/Navigation';
 import Landing from './Components/Pages/Landing';
 import About from './Components/Pages/About';
 import Resume from './Components/Pages/Resume';
-// import Portfolio from './Components/Pages/Portfolio';
+import Portfolio from './Components/Pages/Portfolio';
 
 //Dev Page Data
 import data from './websiteData';
 
 function App() {
-  // console.log("In App.js", data.portfolio)
+  console.log("In App.js", data.portfolio)
 
   return (
     <div className="App">
@@ -28,7 +28,7 @@ function App() {
       </div>
 
       <Resume skills={data.skills} experience={data.experience} />
-      {/* <Portfolio portfolio={data.portfolio}/> */}
+      <Portfolio portfolio={data.portfolio}/>
     </div>
   );
 }

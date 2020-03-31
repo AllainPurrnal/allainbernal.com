@@ -25,8 +25,8 @@
   border-bottom: 2px solid #FF00B4;
 }
 
-.skills h6 {
-  padding-bottom: 25px;
+.skills h6, .experience p {
+  padding-bottom: 20px;
 }
 
 .experience {

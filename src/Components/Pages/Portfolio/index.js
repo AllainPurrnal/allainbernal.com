@@ -1,57 +1,30 @@
 import React from 'react';
-import { MDBContainer, MDBRow, MDBCol, MDBView, MDBMask, MDBCardTitle } from "mdbreact";
+import { MDBContainer, MDBRow } from "mdbreact";
 
 //Dev Styles
 import './index.css';
-import projOne from './assets/mywebsite.webp';
-import projTwo from './assets/clickygame.webp';
 
-//Dev Page Data
-import data from'../../../websiteData.js';
+// Dev Components
+import Project from './Project.js';
 
 const Portfolio = ({ portfolio }) => {
-  // console.log("In Portfolio.js", portfolio
+  console.log("In Portfolio.js", portfolio)
+
+  const projPrint =  portfolio.map((project, id) =>
+    <Project key={project.id} project={project} />
+  )
+
   return(
-    <div className="portfolioPage" id="portfolio">
-      <MDBContainer>
-        <h4><em><strong>Projects</strong></em></h4>
-        <MDBRow className="projects">
-        <MDBCol className='projDiv' md="4">
-            <MDBView hover>
-              <img src={projOne} className="img-fluid" alt="allainbernal.com landing page" />
-                <a href={data.portfolio[0].projectLink}>
-                  <MDBMask className="flex-center" overlay="black-light">
-                    <p className="white-text">{data.portfolio[0].projectDesc}</p>
-                  </MDBMask>
-                </a>
-            </MDBView>
-          </MDBCol>
+    <MDBContainer className="portfolioPage" id="portfolio">
+      <MDBRow className="projects" id="header">
+          <h4><em><strong>Portfolio</strong></em></h4>
+      </MDBRow>
+  
+      <MDBRow>
+        {projPrint}
+      </MDBRow>
 
-          <MDBCol className='projDiv' md="4">
-            <MDBView hover>
-              <img src={projTwo} className="img-fluid" alt="" />
-                <a href={data.portfolio[1].projectLink}>
-                  <MDBMask className="flex-center" overlay="black-light">
-                    <p className="white-text">{data.portfolio[1].projectDesc}</p>
-                  </MDBMask>
-                </a>
-            </MDBView>
-          </MDBCol>
-
-          {/* <MDBCol className='projDiv' md="4">
-            <MDBView hover>
-              <img src={exPage} className="img-fluid" alt="" />
-                <a href="http://www.google.com">
-                  <MDBMask className="flex-center" overlay="black-light">
-                    <p className="white-text">Brief project description</p>
-                  </MDBMask>
-                </a>
-            </MDBView>
-          </MDBCol> */}
-        </MDBRow>
-    
-      </MDBContainer>
-    </div>
+    </MDBContainer>
   )
 }
 

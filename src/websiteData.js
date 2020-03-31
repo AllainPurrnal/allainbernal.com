@@ -1,3 +1,7 @@
+import pj1 from './assets/mywebsite.webp';
+import pj2 from './assets/clickygame.webp';
+import pj3 from './assets/bg2.JPG';
+
 let websiteData = {
   name: "Allain Bernal",
   role: "Full-Stack Web Developer",
@@ -76,14 +80,24 @@ let websiteData = {
       name: "allainbernal.com",
       link: "www.allainbernal.com",
       git: "https://github.com/AllainPurrnal/allainbernal.com",
-      description: "A personal website that is ever evolving"
+      description: "A personal website that is ever evolving",
+      image: pj1
     },
     {
       id: 2,
       name: "Cat Clicky",
       link: "https://cat-clicky-game.herokuapp.com/",
       git: "https://github.com/AllainPurrnal/Cat-Clicky-Game",
-      description: "A simple memory game built with React and Cats"
+      description: "A simple memory game built with React and Cats",
+      image: pj2
+    },
+    {
+      id: 3,
+      name: "Cat Trivia",
+      link: "https://google.com",
+      git: "https://github.com/AllainPurrnal/TriviaGame",
+      description: "A trivia game centered around cat facts!",
+      image: pj3
     }
   ]
 };

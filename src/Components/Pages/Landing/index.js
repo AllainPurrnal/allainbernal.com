@@ -17,10 +17,7 @@ const styles = {
   ]
 }
 
-function randImg() {
-  return styles.images[Math.floor(Math.random() * 5)]
-  // return styles.images[4]
-}
+const randImg = () => styles.images[Math.floor(Math.random() * 5)]
 
 const Landing = ({ data }) => {
   // console.log("In Landing.js", data.name, data.role)
