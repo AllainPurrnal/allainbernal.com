@@ -32,3 +32,8 @@
 .experience {
   padding-top: 25px;
 }
+
+.experience a:hover{
+  color: inherit;
+  opacity: .6;
+}

@@ -42,8 +42,6 @@ const Resume = ({ skills, experience }) => {
           {expPrint}
         </MDBCol>
       </MDBRow>
-
-      <hr />
     </MDBContainer>
   )
 }

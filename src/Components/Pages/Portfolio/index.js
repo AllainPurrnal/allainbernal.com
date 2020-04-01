@@ -1,5 +1,5 @@
 import React from 'react';
-import { MDBContainer, MDBRow } from "mdbreact";
+import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
 
 //Dev Styles
 import './index.css';
@@ -8,7 +8,7 @@ import './index.css';
 import Project from './Project.js';
 
 const Portfolio = ({ portfolio }) => {
-  console.log("In Portfolio.js", portfolio)
+  // console.log("In Portfolio.js", portfolio)
 
   const projPrint =  portfolio.map((project, id) =>
     <Project key={project.id} project={project} />
@@ -17,7 +17,9 @@ const Portfolio = ({ portfolio }) => {
   return(
     <MDBContainer className="portfolioPage" id="portfolio">
       <MDBRow className="projects" id="header">
-          <h4><em><strong>Portfolio</strong></em></h4>
+          <MDBCol size='5'>
+            <h4><em><strong>Portfolio</strong></em></h4>
+          </MDBCol>
       </MDBRow>
   
       <MDBRow>

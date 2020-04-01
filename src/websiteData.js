@@ -1,13 +1,13 @@
 import pj1 from './assets/mywebsite.webp';
 import pj2 from './assets/clickygame.webp';
-import pj3 from './assets/bg2.JPG';
+import pj3 from './assets/bg2.webp';
 
 let websiteData = {
   name: "Allain Bernal",
   role: "Full-Stack Web Developer",
   about: "A, con panna medium robusta single shot barista whipped, aged qui turkish, ut macchiato plunger pot roast brewed instant siphon and cream. Variety that arabica plunger pot, blue mountain foam con panna, affogato crema, so java, doppio frappuccino robusta body dark rich robusta id froth cortado dark. Breve, at organic so, cup coffee, cappuccino, carajillo barista, variety organic seasonal, redeye rich as cappuccino foam instant.",
   contactInfo: {
-    phone: "(925)338-1949",
+    phone: "(925) 338-1949",
     email: "me@allainbernal.com"
   },
   social: [
@@ -80,6 +80,7 @@ let websiteData = {
       name: "allainbernal.com",
       link: "www.allainbernal.com",
       git: "https://github.com/AllainPurrnal/allainbernal.com",
+      tech: "HTML / CSS / JavaScript / React / MDBootstrap",
       description: "A personal website that is ever evolving",
       image: pj1
     },
@@ -88,6 +89,7 @@ let websiteData = {
       name: "Cat Clicky",
       link: "https://cat-clicky-game.herokuapp.com/",
       git: "https://github.com/AllainPurrnal/Cat-Clicky-Game",
+      tech: "HTML / CSS / JavaScript / React",
       description: "A simple memory game built with React and Cats",
       image: pj2
     },
@@ -96,6 +98,7 @@ let websiteData = {
       name: "Cat Trivia",
       link: "https://google.com",
       git: "https://github.com/AllainPurrnal/TriviaGame",
+      tech: "HTML / CSS / JavaScript / React",
       description: "A trivia game centered around cat facts!",
       image: pj3
     }
