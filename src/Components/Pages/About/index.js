@@ -12,19 +12,19 @@ const About = ({ data }) => {
     <MDBContainer className="aboutPage text-justify" id="about">
 
       <MDBRow>
-
         <MDBCol id="headerAbout" size="5">
           <h4><em><strong>About</strong></em></h4>
         </MDBCol>
         
         <MDBCol md="7">
-          <MDBRow>
-            <MDBCol>
               <p id='desc'>{data.about}</p>
-            </MDBCol>
-          </MDBRow>
-        </MDBCol>
 
+              {/* <object
+                type='image/svg+xml'
+                data={data.social[0].image}> 
+              </object> */}
+
+        </MDBCol>
       </MDBRow>
 
     </MDBContainer>
