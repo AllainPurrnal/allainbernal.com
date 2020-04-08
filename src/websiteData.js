@@ -2,14 +2,6 @@ import pj1 from './assets/mywebsite.webp';
 import pj2 from './assets/clickygame.webp';
 import pj3 from './assets/bg2.webp';
 
-import css from './assets/icons/css.svg';
-import html from './assets/icons/html.svg';
-import js from './assets/icons/js.svg';
-// import nodejs from './assets/icons/nodejs.svg';
-import react from './assets/icons/react.svg';
-import github from './assets/icons/github.svg';
-import linkedin from './assets/icons/linkedin.svg';
-
 let websiteData = {
   name: "Allain Bernal",
   role: "Full-Stack Web Developer",
@@ -21,13 +13,11 @@ let websiteData = {
   social: [
     {
       name: "LinkedIn",
-      link: "https://www.linkedin.com/in/AllainBernal",
-      image: linkedin
+      link: "https://www.linkedin.com/in/AllainBernal"
     },
     {
       name: "Github",
-      link: "https://github.com/AllainPurrnal",
-      image: github
+      link: "https://github.com/AllainPurrnal"
     }
   ],
   skills: [
@@ -90,8 +80,7 @@ let websiteData = {
       name: "allainbernal.com",
       link: "www.allainbernal.com",
       git: "https://github.com/AllainPurrnal/allainbernal.com",
-      // tech: "HTML / CSS / JavaScript / React / MDBootstrap",
-      tech: [html, css, js, react],
+      tech: "HTML / CSS / JavaScript / React / MDBootstrap",
       description: "A personal website that is ever evolving",
       image: pj1
     },
@@ -100,8 +89,7 @@ let websiteData = {
       name: "Cat Clicky",
       link: "https://cat-clicky-game.herokuapp.com/",
       git: "https://github.com/AllainPurrnal/Cat-Clicky-Game",
-      // tech: "HTML / CSS / JavaScript / React",
-      tech: [html, css, js, react],
+      tech: "HTML / CSS / JavaScript / React",
       description: "A simple memory game built with React and Cats",
       image: pj2
     },
@@ -110,8 +98,7 @@ let websiteData = {
       name: "Cat Trivia",
       link: "https://google.com",
       git: "https://github.com/AllainPurrnal/TriviaGame",
-      // tech: "HTML / CSS / JavaScript / React",
-      tech: [html, css, js, react],
+      tech: "HTML / CSS / JavaScript / React",
       description: "A trivia game centered around cat facts!",
       image: pj3
     }
