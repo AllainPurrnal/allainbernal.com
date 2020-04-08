@@ -1,5 +1,8 @@
 import React from 'react';
-import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
+import { MDBContainer, MDBRow, MDBCol } from 'mdbreact';
+import Icon from '@mdi/react';
+import { mdiLinkedin } from '@mdi/js';
+import { mdiGithub } from '@mdi/js';
 
 // Dev Styles
 import './index.css';
@@ -18,12 +21,12 @@ const About = ({ data }) => {
         
         <MDBCol md="7">
               <p id='desc'>{data.about}</p>
-
-              {/* <object
-                type='image/svg+xml'
-                data={data.social[0].image}> 
-              </object> */}
-
+              <a href={data.social[0].link}>
+                <Icon path={ mdiLinkedin } title="LinkedIn" id="svg" />
+              </a>
+              <a href={data.social[1].link}>
+                <Icon path={ mdiGithub } title="Github" id="svg" />
+              </a>
         </MDBCol>
       </MDBRow>
 

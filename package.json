@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@mdi/js": "^5.0.45",
+    "@mdi/react": "^1.4.0",
     "mdbreact": "^4.19.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
