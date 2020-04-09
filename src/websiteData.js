@@ -61,18 +61,19 @@ let websiteData = {
         endDate: "Present"
       },
       description: "Sit wings redeye trifecta caffeine, aroma arabica java percolator aftertaste. Redeye sit, grinder, body cappuccino cream java white. Americano acerbic, galão, milk, caffeine crema dripper affogato coffee that sugar crema."
-    },
-    {
-      id: 2,
-      company: "Upwork",
-      link: "https://upwork.com/",
-      role: "Freelance Web Developer",
-      period: {
-        startDate: "January 01, 2020",
-        endDate: "Present"
-      },
-      description: "Sit wings redeye trifecta caffeine, aroma arabica java percolator aftertaste. Redeye sit, grinder, body cappuccino cream java white. Americano acerbic, galão, milk, caffeine crema dripper affogato coffee that sugar crema."
     }
+    // ,
+    // {
+    //   id: 2,
+    //   company: "Upwork",
+    //   link: "https://upwork.com/",
+    //   role: "Freelance Web Developer",
+    //   period: {
+    //     startDate: "January 01, 2020",
+    //     endDate: "Present"
+    //   },
+    //   description: "Sit wings redeye trifecta caffeine, aroma arabica java percolator aftertaste. Redeye sit, grinder, body cappuccino cream java white. Americano acerbic, galão, milk, caffeine crema dripper affogato coffee that sugar crema."
+    // }
   ],
   portfolio: [
     {
