@@ -10,6 +10,21 @@ body, html {
 }
 
 .bg strong, .bg em {
-  color: white;
+  color: #FFFFFF;
   opacity: .8;
+}
+
+.bg a {
+  color: #FFFFFF;
+  opacity: .2;
+}
+
+.bg a:hover {
+  color: #FFFFFF;
+  opacity: .8;
+}
+
+#arrowDown {
+  width: 48px;
+  height: 48px;
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import { MDBMask } from 'mdbreact';
-// import { MDBMask, MDBIcon } from 'mdbreact';
+import Icon from '@mdi/react';
+import { mdiChevronDown } from '@mdi/js';
 
 //Dev Styles
 import './index.css';
@@ -34,11 +35,11 @@ const Landing = ({ data }) => {
             <em>{data.role}</em>
           </h4>
 
-          {/* <div className="flex-center socialLinks white-text">
-            <MDBIcon fab icon="github-square" size="responsive" className='lightgrey-text m-5' fixed  />
-            <MDBIcon icon="cat" size="responsive" className='lightgrey-text m-5' fixed  />
-            <MDBIcon icon="coffee mdb-gallery-view-icon" size="responsive" className='lightgrey-text m-5' fixed  />
-          </div> */}
+          <a className='flex-center' href="#about">
+            <Icon
+              path={mdiChevronDown}
+              id='arrowDown' />
+          </a>
         </div>
       </MDBMask>
     </div>

@@ -5,21 +5,20 @@ header {
   border: 0;
 }
 
-.navbar {
-  /* position: relative; */
-  top: 0;
-  color: #FFFFFF;
-  font-size: 1rem;
-  max-width: 100%;
-  margin: 0;
-  padding: 0 auto;
-  border: 0;
-}
-
 #navlink{
-  color: inherit;
+  /* color: #FFFFFF; */
+  opacity: .8;
+
   list-style: none;
   padding: 5px 35px;
+}
+
+a {
+  color: #FF00B4;
+}
+
+a:hover {
+  opacity: 1;
 }
 
 span {
