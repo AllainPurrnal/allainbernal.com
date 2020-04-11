@@ -1,10 +1,10 @@
 import pj1 from './assets/mywebsite.webp';
 import pj2 from './assets/clickygame.webp';
-import pj3 from './assets/bg2.webp';
+// import pj3 from './assets/bg2.webp';
 
 let websiteData = {
   name: "Allain Bernal",
-  role: "Full-Stack Web Developer",
+  role: "Full - Stack Web Developer",
   about: "A, con panna medium robusta single shot barista whipped, aged qui turkish, ut macchiato plunger pot roast brewed instant siphon and cream. Variety that arabica plunger pot, blue mountain foam con panna, affogato crema, so java, doppio frappuccino robusta body dark rich robusta id froth cortado dark. Breve, at organic so, cup coffee, cappuccino, carajillo barista, variety organic seasonal, redeye rich as cappuccino foam instant.",
   contactInfo: {
     phone: "(925) 338-1949",
@@ -32,7 +32,7 @@ let websiteData = {
       id: 2,
       type: "Frameworks",
       name: [
-        "Bootstrap", "jQuery", "MDBootstrap", "Node.js", "React", "Redux"
+        "Bootstrap", "jQuery", "MDBootstrap", "Node.js", "React", "Redux", "Tailwind CSS"
       ]
     },
     {
@@ -61,19 +61,18 @@ let websiteData = {
         endDate: "Present"
       },
       description: "Sit wings redeye trifecta caffeine, aroma arabica java percolator aftertaste. Redeye sit, grinder, body cappuccino cream java white. Americano acerbic, galão, milk, caffeine crema dripper affogato coffee that sugar crema."
+    },
+    {
+      id: 2,
+      company: "Upwork",
+      link: "https://upwork.com/",
+      role: "Freelance Web Developer",
+      period: {
+        startDate: "January 01, 2020",
+        endDate: "Present"
+      },
+      description: "Sit wings redeye trifecta caffeine, aroma arabica java percolator aftertaste. Redeye sit, grinder, body cappuccino cream java white. Americano acerbic, galão, milk, caffeine crema dripper affogato coffee that sugar crema."
     }
-    // ,
-    // {
-    //   id: 2,
-    //   company: "Upwork",
-    //   link: "https://upwork.com/",
-    //   role: "Freelance Web Developer",
-    //   period: {
-    //     startDate: "January 01, 2020",
-    //     endDate: "Present"
-    //   },
-    //   description: "Sit wings redeye trifecta caffeine, aroma arabica java percolator aftertaste. Redeye sit, grinder, body cappuccino cream java white. Americano acerbic, galão, milk, caffeine crema dripper affogato coffee that sugar crema."
-    // }
   ],
   portfolio: [
     {
@@ -93,16 +92,17 @@ let websiteData = {
       tech: "HTML / CSS / JavaScript / React",
       description: "A simple memory game built with React and Cats",
       image: pj2
-    },
-    {
-      id: 3,
-      name: "Cat Trivia",
-      link: "https://google.com",
-      git: "https://github.com/AllainPurrnal/TriviaGame",
-      tech: "HTML / CSS / JavaScript / React",
-      description: "A trivia game centered around cat facts!",
-      image: pj3
     }
+    // ,
+    // {
+    //   id: 3,
+    //   name: "Cat Trivia",
+    //   link: "https://google.com",
+    //   git: "https://github.com/AllainPurrnal/TriviaGame",
+    //   tech: "HTML / CSS / JavaScript / React",
+    //   description: "A trivia game centered around cat facts!",
+    //   image: pj3
+    // }
   ]
 };
 

@@ -8,17 +8,17 @@ import './index.css';
 function Navbar() {
   return(
       <header>
-        <MDBNavbar color='elegant-color-dark' scrolling='true' transparent='true' fixed='top' className="navbar justify-content-center" padding='0'>
+        <MDBNavbar color='elegant-color-dark' scrolling='true' transparent='true' z-depth-0 fixed='top' className="navbar justify-content-center" padding='0'>
           <MDBNavItem id="navlink">
-            <a href="#about"><span>About</span></a>
+            <a href="#about">About</a>
           </MDBNavItem>
 
           <MDBNavItem id="navlink">
-            <a href="#skills"><span>Skills</span></a>
+            <a href="#skills">Skills</a>
           </MDBNavItem>
 
           <MDBNavItem id="navlink">
-            <a href="#portfolio"><span>Portfolio</span></a>
+            <a href="#portfolio">Portfolio</a>
           </MDBNavItem>
         </MDBNavbar>
       </header>

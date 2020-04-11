@@ -6,21 +6,18 @@ header {
 }
 
 #navlink{
-  /* color: #FFFFFF; */
+  color: #FFFFFF;
   opacity: .8;
 
   list-style: none;
   padding: 5px 35px;
 }
 
-a {
+#navlink a {
+  color: inherit;
+}
+
+#navlink:hover {
   color: #FF00B4;
-}
-
-a:hover {
   opacity: 1;
-}
-
-span {
-  color: white;
 }

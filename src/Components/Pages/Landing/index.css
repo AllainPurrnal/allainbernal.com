@@ -16,7 +16,7 @@ body, html {
 
 .bg a {
   color: #FFFFFF;
-  opacity: .2;
+  opacity: .4;
 }
 
 .bg a:hover {
@@ -25,6 +25,7 @@ body, html {
 }
 
 #arrowDown {
+  /* display: block; */
   width: 48px;
   height: 48px;
 }

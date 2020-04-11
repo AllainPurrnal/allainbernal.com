@@ -1,6 +1,6 @@
 .aboutPage {
   /* background-color: #121212; */
-  padding: 25px;
+  padding: 55px 25px 50px 25px;
 }
 
 #headerAbout {
@@ -20,7 +20,7 @@
 
 /* Pink underline for the Section Header */
 #headerAbout em {
-  border-bottom: 2px solid #c70084;
+  border-bottom: 2px solid #C70084;
 }
 
 #headerAbout strong {

@@ -1,12 +1,19 @@
-html,body {
+html, body {
   width: 100%;
   margin: 0px;
   padding: 0px;
-  /* overflow-x: hidden; */
 }
 
 #appAbout, #appPortfolio, #appFooter {
   background-color: #121212;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.body {
+  -ms-overflow-style: none;
 }
 
 /* Experiemental Scrollbar styling */
