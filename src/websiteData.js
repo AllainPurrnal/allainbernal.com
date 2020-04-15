@@ -4,7 +4,7 @@ import pj2 from './assets/clickygame.webp';
 
 let websiteData = {
   name: "Allain Bernal",
-  role: "Full - Stack Web Developer",
+  role: "Full Stack Web Developer",
   about: "A, con panna medium robusta single shot barista whipped, aged qui turkish, ut macchiato plunger pot roast brewed instant siphon and cream. Variety that arabica plunger pot, blue mountain foam con panna, affogato crema, so java, doppio frappuccino robusta body dark rich robusta id froth cortado dark. Breve, at organic so, cup coffee, cappuccino, carajillo barista, variety organic seasonal, redeye rich as cappuccino foam instant.",
   contactInfo: {
     phone: "(925) 338-1949",
