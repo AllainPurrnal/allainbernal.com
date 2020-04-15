@@ -93,16 +93,16 @@ let websiteData = {
       description: "A simple memory game built with React and Cats",
       image: pj2
     }
-    // ,
-    // {
-    //   id: 3,
-    //   name: "Cat Trivia",
-    //   link: "https://google.com",
-    //   git: "https://github.com/AllainPurrnal/TriviaGame",
-    //   tech: "HTML / CSS / JavaScript / React",
-    //   description: "A trivia game centered around cat facts!",
-    //   image: pj3
-    // }
+  ],
+  miniProjects: [
+    {
+      id: 1,
+      name: "Drum Kit",
+      link: "https://allainpurrnal.github.io/Drum-Kit/",
+      git: "https://github.com/AllainPurrnal/Drum-Kit",
+      tech: "HTML / CSS / JavaScript",
+      description: "A simple Drum Kit made in plain HTML, CSS, and JavaScript"
+    },
   ]
 };
 
