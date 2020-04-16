@@ -81,7 +81,7 @@ let websiteData = {
       link: "www.allainbernal.com",
       git: "https://github.com/AllainPurrnal/allainbernal.com",
       tech: ["HTML", "CSS", "JavaScript", "React", "MDBootstrap"],
-      description: "A personal website that is ever evolving",
+      description: "An ever evolving website for my hobbies and interests to call home",
       image: pj1
     },
     {

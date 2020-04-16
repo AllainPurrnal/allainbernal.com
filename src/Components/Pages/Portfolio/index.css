@@ -48,11 +48,15 @@
 }
 
 #cardBody {
-  background-color: #181818;
+  background-color: #191919;
 }
 
 #projSvg {
+  opacity: .8;
+
   width: 20px;
   height: 20px;
-  opacity: .8;
+
+  margin-left: 3px;
+  margin-right: 3px;
 }

@@ -32,9 +32,13 @@
   opacity: .8;
 }
 
-#svg {
-  width: 36px;
-  height: 36px;
-  color: #FFFFFF;
+#aboutSvg {
+  color: #FFFFFF; /* Temporary color profile */
   opacity: .8;
+
+  width: 32px;
+  height: 32px;
+  
+  margin-left: 4px;
+  margin-right: 4px;
 }

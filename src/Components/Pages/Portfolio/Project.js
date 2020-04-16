@@ -1,17 +1,33 @@
 import React from 'react';
-import { MDBCol, MDBView, MDBMask, MDBCard, MDBCardImage, MDBCardBody } from 'mdbreact';
+import { MDBCol, MDBCard, MDBCardImage, MDBCardBody } from 'mdbreact';
+// import { MDBCol, MDBView, MDBMask, MDBCard, MDBCardImage, MDBCardBody } from 'mdbreact';
 
 // Dev Styles
 import './index.css';
 
 // Dev Components
-import ProjectIcon from './ProjectIcon';
+import MyIcon from '../../MyIcon';
 
 const Project = ({ project }) => {
   // console.log("In Project.js", project.image)
 
   const iconPrint = project.tech.map((tech) =>
-    <ProjectIcon tech={tech} />
+    <MyIcon icon={tech} id="projSvg"/>
+  )
+
+  return (
+    <MDBCol className='flex-center' id="projectBody">
+      <MDBCard style={{ width: "20rem" }}>
+        <a href={project.link}>
+          <MDBCardImage className='img-fluid' src={project.image} waves={false} overlay='black-light' />
+        </a>
+        <MDBCardBody id="cardBody">
+          <h5><strong>{project.name}</strong></h5>
+          <h6>{project.description}</h6>
+          <em>Built With: {iconPrint} </em>
+        </MDBCardBody>
+      </MDBCard>
+    </MDBCol>
   )
 
   // return (
@@ -44,21 +60,6 @@ const Project = ({ project }) => {
   //     </MDBCol>
   //   </MDBRow>
   // )
-
-  return (
-    <MDBCol className='flex-center' id="projectBody">
-      <MDBCard style={{ width: "20rem" }}>
-        <a href={project.link}>
-          <MDBCardImage className='img-fluid' src={project.image} waves={false} overlay='black-light' />
-        </a>
-        <MDBCardBody id="cardBody">
-          <h5><strong>{project.name}</strong></h5>
-          <h6>{project.description}</h6>
-          <em>Built With: {iconPrint} </em>
-        </MDBCardBody>
-      </MDBCard>
-    </MDBCol>
-  )
 }
 
 export default Project;
