@@ -8,7 +8,7 @@ const Project = ({ project }) => {
   // console.log("In Project.js", project.image)
 
   return (
-    <MDBCol className="projDiv" >
+    <MDBCol className="projDiv" md='4' >
       <MDBView hover>
         <img src={project.image} className="img-fluid" alt={project.name} />
         <a href={project.link}>

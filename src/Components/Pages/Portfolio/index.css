@@ -1,21 +1,25 @@
-.portfolioPage {
-  /* margin: 10px; */
+.portfolioSection {
   align-content: center;
   padding: 55px 25px 50px 25px;
 }
 
-.portfolioPage h4 {
-  text-align: right;
-  opacity: .8;
-}
-
-.portfolioPage strong {
-  color: white;
-  border-bottom: 2px solid #C70084;
-}
-
 .projects {
   padding-bottom: 25px;
+}
+
+#portfolioHeader h4 {
+  color: #FFFFFF;
+  text-align: right;
+  opacity: .8;
+
+  padding-right: 100px;
+  padding-bottom: 4px;
+
+  margin: 0 auto;
+}
+
+#portfolioHeader em {
+  border-bottom: 2px solid #FF00B4;
 }
 
 .projDiv {

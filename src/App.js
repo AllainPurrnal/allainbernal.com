@@ -30,7 +30,7 @@ function App() {
 
       <Resume skills={data.skills} experience={data.experience} />
       <div id="appPortfolio">
-        <Portfolio portfolio={data.portfolio} />
+        <Portfolio portfolio={data.portfolio} bytes={data.projectByte} />
       </div>
 
       {/* <div id="appFooter">

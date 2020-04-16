@@ -94,7 +94,7 @@ let websiteData = {
       image: pj2
     }
   ],
-  miniProjects: [
+  projectByte: [
     {
       id: 1,
       name: "Drum Kit",
