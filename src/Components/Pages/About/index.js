@@ -1,5 +1,7 @@
 import React from 'react';
 import { MDBContainer, MDBRow, MDBCol } from 'mdbreact';
+
+// Dev Icons
 import Icon from '@mdi/react';
 import { mdiLinkedin } from '@mdi/js';
 import { mdiGithub } from '@mdi/js';

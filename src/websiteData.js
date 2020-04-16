@@ -1,6 +1,6 @@
 import pj1 from './assets/mywebsite.webp';
 import pj2 from './assets/clickygame.webp';
-// import pj3 from './assets/bg2.webp';
+import pj3 from './assets/bg2.webp';
 
 let websiteData = {
   name: "Allain Bernal",
@@ -80,7 +80,7 @@ let websiteData = {
       name: "allainbernal.com",
       link: "www.allainbernal.com",
       git: "https://github.com/AllainPurrnal/allainbernal.com",
-      tech: "HTML / CSS / JavaScript / React / MDBootstrap",
+      tech: ["HTML", "CSS", "JavaScript", "React", "MDBootstrap"],
       description: "A personal website that is ever evolving",
       image: pj1
     },
@@ -89,9 +89,18 @@ let websiteData = {
       name: "Cat Clicky",
       link: "https://cat-clicky-game.herokuapp.com/",
       git: "https://github.com/AllainPurrnal/Cat-Clicky-Game",
-      tech: "HTML / CSS / JavaScript / React",
+      tech: ["HTML", "CSS", "JavaScript", "React"],
       description: "A simple memory game built with React and Cats",
       image: pj2
+    },
+    {
+      id: 3,
+      name: "Cat Clicky",
+      link: "https://cat-clicky-game.herokuapp.com/",
+      git: "https://github.com/AllainPurrnal/Cat-Clicky-Game",
+      tech: ["HTML", "CSS", "JavaScript", "React"],
+      description: "A simple memory game built with React and Cats",
+      image: pj3
     }
   ],
   projectByte: [
@@ -100,7 +109,7 @@ let websiteData = {
       name: "Drum Kit",
       link: "https://allainpurrnal.github.io/Drum-Kit/",
       git: "https://github.com/AllainPurrnal/Drum-Kit",
-      tech: "HTML / CSS / JavaScript",
+      tech: ["HTML", "CSS", "JavaScript"],
       description: "A simple Drum Kit made in plain HTML, CSS, and JavaScript"
     },
   ]

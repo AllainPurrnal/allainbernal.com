@@ -21,16 +21,15 @@ const Portfolio = ({ portfolio, bytes }) => {
 
   return(
     <MDBContainer className="portfolioSection" id="portfolio">
-      <MDBRow className="projects">
+      <MDBRow>
           <MDBCol id="portfolioHeader" size='5'>
             <h4><em><strong>Portfolio</strong></em></h4>
           </MDBCol>
       </MDBRow>
   
-      <MDBRow>
-        {projPrint}
+      <MDBRow className="projects">
+          {projPrint}
       </MDBRow>
-
     </MDBContainer>
   )
 }

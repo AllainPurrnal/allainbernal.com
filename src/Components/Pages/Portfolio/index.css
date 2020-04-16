@@ -3,17 +3,13 @@
   padding: 55px 25px 50px 25px;
 }
 
-.projects {
-  padding-bottom: 25px;
-}
-
 #portfolioHeader h4 {
   color: #FFFFFF;
   text-align: right;
   opacity: .8;
 
   padding-right: 100px;
-  padding-bottom: 4px;
+  padding-bottom: 0px;
 
   margin: 0 auto;
 }
@@ -22,9 +18,41 @@
   border-bottom: 2px solid #FF00B4;
 }
 
-.projDiv {
+.projects {
   background-color: #121212;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-content: center;
+}
+
+#projectBody {
   padding-top: 5px;
   padding-bottom: 5px;
-  align-content: center;
+}
+
+#projectBody a {
+  color: inherit;
+}
+
+#projectBody a:hover {
+  opacity: .4;
+}
+
+#projectBody h5, #projectBody h6, #projectBody em {
+  color: #FFFFFF;
+  opacity: .8;
+}
+
+#projectBody em {
+  font-size: small;
+}
+
+#cardBody {
+  background-color: #181818;
+}
+
+#projSvg {
+  width: 20px;
+  height: 20px;
+  opacity: .8;
 }
