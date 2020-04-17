@@ -29,37 +29,6 @@ const Project = ({ project }) => {
       </MDBCard>
     </MDBCol>
   )
-
-  // return (
-  //   <MDBCol className="projects" md='4' >
-  //     <MDBView hover>
-  //       <img src={project.image} className="img-fluid" alt={project.name} />
-  //       <a href={project.link}>
-  //         <MDBMask className="flex-center" overlay="black-strong">
-  //           <p className="white-text">{project.description}</p>
-  //         </MDBMask>
-  //       </a>
-  //     </MDBView>
-  //   </MDBCol>
-  // )
-
-  // return (
-  //   <MDBRow className="projects">
-  //     <MDBCol size='1' />
-
-  //     <MDBCol id="projectImage" size='3'>
-  //       <img src={project.image} alt={project.name} className='img-fluid' />
-  //     </MDBCol>
-
-  //     <MDBCol size='1' />
-
-  //     <MDBCol id="projectBody" size='7'>
-  //       <h4><strong><a href={project.link}>{project.name}</a></strong></h4>
-  //       <h5>{project.description}</h5>
-  //       <p>Built With: {iconPrint} </p>
-  //     </MDBCol>
-  //   </MDBRow>
-  // )
 }
 
 export default Project;

@@ -9,7 +9,7 @@ import './index.css';
 import MyIcon from '../../MyIcon';
 
 const About = ({ data }) => {
-  console.log("In About.js", data.social)
+  // console.log("In About.js", data.social)
 
   const iconPrint = data.social.map((social) =>
     <MyIcon icon={social.name} id="aboutSvg" />

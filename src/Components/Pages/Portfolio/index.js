@@ -30,6 +30,10 @@ const Portfolio = ({ portfolio, bytes }) => {
       <MDBRow className="projects">
           {projPrint}
       </MDBRow>
+
+      <MDBRow>
+        {bytePrint}
+      </MDBRow>
     </MDBContainer>
   )
 }
