@@ -22,17 +22,37 @@ const Portfolio = ({ portfolio, bytes }) => {
   return(
     <MDBContainer className="portfolioSection" id="portfolio">
       <MDBRow>
-          <MDBCol id="portfolioHeader" size='5'>
-            <h4><em><strong>Portfolio</strong></em></h4>
-          </MDBCol>
-      </MDBRow>
-  
-      <MDBRow className="projects">
-          {projPrint}
+        <MDBCol id="portfolioHeader" size='5'>
+          <h4><em><strong>Portfolio</strong></em></h4>
+        </MDBCol>
       </MDBRow>
 
-      <MDBRow>
-        {/* {bytePrint} */}
+      <div  id="projSubheader">
+        <div>
+          <h4><strong>Projects</strong></h4>
+        </div>
+        <div>
+          <h5><em>Larger in scope and functionality</em></h5>
+        </div>
+      </div>
+
+      <MDBRow className="projects">
+        {projPrint}
+      </MDBRow>
+
+      <hr />
+
+      <div  id="projSubheader">
+        <div>
+          <h4><strong>Bytes</strong></h4>
+        </div>
+        <div>
+          <h5><em>Simple in nature</em></h5>
+        </div>
+      </div>
+
+      <MDBRow className="projects">
+        {bytePrint}
       </MDBRow>
     </MDBContainer>
   )

@@ -1,6 +1,7 @@
 import pj1 from './assets/mywebsite.webp';
 import pj2 from './assets/clickygame.webp';
-// import pj3 from './assets/bg2.webp';
+
+import pb1 from './assets/drumkit.webp';
 
 let websiteData = {
   name: "Allain Bernal",
@@ -95,7 +96,8 @@ let websiteData = {
       link: "https://allainpurrnal.github.io/Drum-Kit/",
       git: "https://github.com/AllainPurrnal/Drum-Kit",
       tech: ["HTML", "CSS", "JavaScript"],
-      description: "A simple Drum Kit made in plain HTML, CSS, and JavaScript"
+      description: "A simple Drum Kit made in plain HTML, CSS, and JavaScript",
+      image: pb1
     }
   ]
 };

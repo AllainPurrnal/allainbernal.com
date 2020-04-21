@@ -19,7 +19,7 @@ const Project = ({ project }) => {
     <MDBCol className='flex-center' id="projectBody">
       <MDBCard style={{ width: "20rem" }}>
         <a href={project.link}>
-          <MDBCardImage className='img-fluid' src={project.image} waves={false} overlay='black-light' />
+          <MDBCardImage className='img-fluid' src={project.image} alt={project.name} overlay='black-slight' />
         </a>
         <MDBCardBody id="cardBody">
           <h5><strong>{project.name}</strong></h5>

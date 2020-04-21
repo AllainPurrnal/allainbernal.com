@@ -3,6 +3,10 @@
   padding: 55px 25px 50px 25px;
 }
 
+#portfolioHeader {
+  padding-bottom: 25px;
+}
+
 #portfolioHeader h4 {
   color: #FFFFFF;
   text-align: right;
@@ -16,6 +20,23 @@
 
 #portfolioHeader em {
   border-bottom: 2px solid #FF00B4;
+}
+
+#projSubheader {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#projSubheader strong, #projSubheader em {
+  color: #FFFFFF;
+  /* opacity: .8; */
+}
+
+#projSubheader h4, #projSubheader h5 {
+  opacity: .8;
+  margin: 0;
+  padding: 0;
 }
 
 .projects {
