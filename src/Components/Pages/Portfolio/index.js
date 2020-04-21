@@ -32,7 +32,7 @@ const Portfolio = ({ portfolio, bytes }) => {
       </MDBRow>
 
       <MDBRow>
-        {bytePrint}
+        {/* {bytePrint} */}
       </MDBRow>
     </MDBContainer>
   )

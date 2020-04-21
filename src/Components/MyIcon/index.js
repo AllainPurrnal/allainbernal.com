@@ -11,16 +11,16 @@ import { mdiNodejs } from '@mdi/js';
 import { mdiLinkedin } from '@mdi/js';
 import { mdiGithub } from '@mdi/js';
 
-const MyIcon = ({ icon, id }) => {
-  // console.log(icon)
+const MyIcon = ({ icon, link, id }) => {
+  // console.log(icon);
 
   switch (icon){
     case "LinkedIn":
       // return <Icon path={ mdiLinkedin } title="LinkedIn" color="#0E76A8" id={id} />
-      return <Icon path={ mdiLinkedin } title="LinkedIn" id={id} />
+      return <a href={link}><Icon path={ mdiLinkedin } title="LinkedIn" id={id} /></a>
     case "Github":
       // return <Icon path={ mdiGithub } title="Github" color="#171515" id={id} />
-      return <Icon path={ mdiGithub } title="Github" id={id} />
+      return <a href={link}><Icon path={ mdiGithub } title="Github" id={id} /></a>
     case "HTML":
       return <Icon path={ mdiLanguageHtml5 } title="HTML" color="#E44D26" id={id} />
     case "CSS":

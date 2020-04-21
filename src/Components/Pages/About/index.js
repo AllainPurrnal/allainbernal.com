@@ -12,7 +12,7 @@ const About = ({ data }) => {
   // console.log("In About.js", data.social)
 
   const iconPrint = data.social.map((social) =>
-    <MyIcon icon={social.name} id="aboutSvg" />
+    <MyIcon icon={social.name} link={social.link} id="aboutSvg" />
   )
   
   return(
