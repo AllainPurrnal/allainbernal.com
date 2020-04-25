@@ -98,6 +98,14 @@ let websiteData = {
       tech: ["HTML", "CSS", "JavaScript"],
       description: "A simple Drum Kit made in plain HTML, CSS, and JavaScript",
       image: pb1
+    },
+    {
+      id: 2,
+      name: "jsClock",
+      link: "https://allainpurrnal.github.io/Clock/",
+      git: "",
+      tech: ["HTML", "CSS", "JavaScript"],
+      description: ""
     }
   ]
 };
