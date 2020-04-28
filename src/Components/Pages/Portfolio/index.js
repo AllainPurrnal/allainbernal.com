@@ -47,7 +47,7 @@ const Portfolio = ({ portfolio, bytes }) => {
           <h4><strong>Bytes</strong></h4>
         </div>
         <div>
-          <h5><em>Simple in nature</em></h5>
+          <h5><em>Simple, Focused</em></h5>
         </div>
       </div>
 
