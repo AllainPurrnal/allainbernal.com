@@ -1,15 +1,19 @@
 import React from 'react';
 import { MDBContainer, MDBRow, MDBCol } from 'mdbreact';
-import Icon from '@mdi/react';
-import { mdiLinkedin } from '@mdi/js';
-import { mdiGithub } from '@mdi/js';
 
 // Dev Styles
 import './index.css';
 // import me from './assets/profile1.jpg';
 
+// Dev Components
+import MyIcon from '../../MyIcon';
+
 const About = ({ data }) => {
-  // console.log("In About.js", data.about)
+  // console.log("In About.js", data.social)
+
+  const iconPrint = data.social.map((social) =>
+    <MyIcon icon={social.name} link={social.link} id="aboutSvg" />
+  )
   
   return(
     <MDBContainer className="aboutPage text-justify" id="about">
@@ -20,13 +24,8 @@ const About = ({ data }) => {
         </MDBCol>
         
         <MDBCol md="7">
-              <p id='desc'>{data.about}</p>
-              <a href={data.social[0].link}>
-                <Icon path={ mdiLinkedin } title="LinkedIn" id="svg" />
-              </a>
-              <a href={data.social[1].link}>
-                <Icon path={ mdiGithub } title="Github" id="svg" />
-              </a>
+          <p id='desc'>{data.about}</p>
+          {iconPrint}
         </MDBCol>
       </MDBRow>
 

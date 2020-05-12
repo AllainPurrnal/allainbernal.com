@@ -1,26 +1,83 @@
-.portfolioPage {
-  /* margin: 10px; */
+.portfolioSection {
   align-content: center;
   padding: 55px 25px 50px 25px;
 }
 
-.portfolioPage h4 {
-  text-align: right;
-  opacity: .8;
-}
-
-.portfolioPage strong {
-  color: white;
-  border-bottom: 2px solid #C70084;
-}
-
-.projects {
+#portfolioHeader {
   padding-bottom: 25px;
 }
 
-.projDiv {
+#portfolioHeader h4 {
+  color: #FFFFFF;
+  text-align: right;
+  opacity: .8;
+
+  padding-right: 100px;
+  padding-bottom: 0px;
+
+  margin: 0 auto;
+}
+
+#portfolioHeader em {
+  border-bottom: 2px solid #FF00B4;
+}
+
+#projSubheader {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#projSubheader strong, #projSubheader em {
+  color: #FFFFFF;
+  /* opacity: .8; */
+}
+
+#projSubheader h4, #projSubheader h5 {
+  opacity: .8;
+  margin: 0;
+  padding: 0;
+}
+
+.projects {
   background-color: #121212;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-content: center;
+}
+
+#projectBody {
   padding-top: 5px;
   padding-bottom: 5px;
-  align-content: center;
+}
+
+#projectBody a {
+  color: inherit;
+}
+
+#projectBody a:hover {
+  opacity: .4;
+}
+
+#projectBody h5, #projectBody h6, #projectBody em {
+  color: #FFFFFF;
+  opacity: .8;
+}
+
+#projectBody em {
+  font-size: small;
+}
+
+#cardBody {
+  background-color: #191919;
+}
+
+#projSvg {
+  opacity: .8;
+
+  width: 20px;
+  height: 20px;
+
+  margin-left: 3px;
+  margin-right: 3px;
 }
