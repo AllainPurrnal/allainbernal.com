@@ -32,7 +32,7 @@ let websiteData = {
       id: 2,
       type: "Frameworks",
       name: [
-        "Bootstrap", "jQuery", "MDBootstrap", "Node.js", "React", "Redux", "Tailwind CSS"
+        "Bootstrap", "jQuery", "MDBootstrap", "React", "Redux", "Tailwind CSS"
       ]
     },
     {
@@ -46,7 +46,7 @@ let websiteData = {
       id: 4,
       type: "Tools & Platforms",
       name: [
-        "AdobeXD", "Git", "Postman", "NPM", "Trello", "Yarn"
+        "AdobeXD", "Git", "Node.js", "Postman", "NPM", "Trello", "Yarn"
       ]
     }
   ],
