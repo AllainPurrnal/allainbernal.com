@@ -35,7 +35,7 @@ let websiteData = {
     },
     {
       id: 2,
-      type: "Frameworks",
+      type: "Libraries & Frameworks",
       name: [
         "Bootstrap", "jQuery", "MDBootstrap", "React", "Redux", "Tailwind CSS"
       ]
