@@ -15,7 +15,7 @@ function Navbar() {
           </MDBNavItem>
 
           <MDBNavItem id="navlink">
-            <a href="#skills">Skills</a>
+            <a href="#resume">Resume</a>
           </MDBNavItem>
 
           <MDBNavItem id="navlink">

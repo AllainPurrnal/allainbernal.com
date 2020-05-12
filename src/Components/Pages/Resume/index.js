@@ -20,7 +20,7 @@ const Resume = ({ skills, experience }) => {
   )
 
   return (
-    <MDBContainer className="resumeSection" id ="skills">
+    <MDBContainer className="resumeSection" id ="resume">
       <MDBRow className="skills">
         <MDBCol id="header" size='5'>
           <h4><em><strong>Skills</strong></em></h4>
