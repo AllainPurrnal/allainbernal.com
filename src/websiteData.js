@@ -62,12 +62,12 @@ let websiteData = {
       link: "https://openoakland.org/",
       role: "Contributor",
       period: {
-        startDate: "January 01, 2020",
+        startDate: "May 01, 2020",
         endDate: "Present"
       },
       // description: "Sit wings redeye trifecta caffeine, aroma arabica java percolator aftertaste. Redeye sit, grinder, body cappuccino cream java white. Americano acerbic, galão, milk, caffeine crema dripper affogato coffee that sugar crema.",
 
-      description: "OpenOakland is a Civic Hacking Group part of the Code for America Brigade Organization. The organizations primary purpose is to improve local communities by using technology to identify and solve problems affecting the society. As a contributor to OpenOakland, I have assisted in solving a miriad of issues in projects such as OakCrime. My contributions range from simple bug fixes to assisting in the implementation of web features"
+      description: "OpenOakland is a Civic Hacking Group part of the Code for America Organization. The organizations primary purpose is to improve local communities by using technology to identify and solve problems affecting the society. Currently beginning my journey in civic engagement by learning and understanding the needs of the community with the goal of contributing to the many ongoing projects at Open Oakland"
     },
     {
       id: 2,
