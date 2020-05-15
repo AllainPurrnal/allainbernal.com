@@ -5,19 +5,17 @@ header {
   border: 0;
 }
 
-#navlink{
-  color: #FFFFFF;
-  opacity: .8;
-
+#navlink {
   list-style: none;
   padding: 5px 35px;
 }
 
 #navlink a {
-  color: inherit;
+  color: #FFFFFF;
+  opacity: .6;
 }
 
-#navlink:hover {
+#navlink a:hover {
   color: #FF00B4;
   opacity: 1;
 }
