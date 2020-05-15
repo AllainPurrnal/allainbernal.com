@@ -16,7 +16,11 @@ const About = ({ data }) => {
   )
   
   return(
-    <MDBContainer className="aboutPage text-justify" id="about">
+    <MDBContainer className="aboutSection text-justify" id="about">
+
+      <MDBRow id="selfie">
+        <img src={data.selfie} alt="Allain's picture!" className='rounded-circle img-fluid z-depth-1 ' />
+      </MDBRow>
 
       <MDBRow>
         <MDBCol id="headerAbout" size="5">
@@ -25,8 +29,25 @@ const About = ({ data }) => {
         
         <MDBCol md="7">
           <p id='desc'>{data.about}</p>
-          {iconPrint}
         </MDBCol>
+      </MDBRow>
+
+      <hr />
+
+      <MDBRow>
+        <MDBCol id="headerAbout" size="5">
+          <h4><em><strong>Background</strong></em></h4>
+        </MDBCol>
+        
+        <MDBCol md="7">
+          <p id='desc'>{data.background}</p>
+        </MDBCol>
+      </MDBRow>
+
+      <hr />
+
+      <MDBRow className='justify-content-center'>
+        {iconPrint}
       </MDBRow>
 
     </MDBContainer>

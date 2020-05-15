@@ -8,6 +8,7 @@ import { mdiLanguageJavascript } from '@mdi/js';
 import { mdiBootstrap } from '@mdi/js';
 import { mdiReact } from '@mdi/js';
 import { mdiNodejs } from '@mdi/js';
+import { mdiDatabase } from '@mdi/js';
 import { mdiLinkedin } from '@mdi/js';
 import { mdiGithub } from '@mdi/js';
 
@@ -33,6 +34,8 @@ const MyIcon = ({ icon, link, id }) => {
       return <Icon path={ mdiBootstrap } title="MDBootstrap" color="#602C50" id={id}/>
     case "Node.js":
       return <Icon path={ mdiNodejs } title="Node.js" color="#3C873A" id={id}/>
+    case "MongoDB":
+      return <Icon path={mdiDatabase} title="MongoDB" color="#589636" id={id} />
     default:
       break;
   }

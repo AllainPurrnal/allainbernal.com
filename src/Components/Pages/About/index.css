@@ -1,6 +1,20 @@
-.aboutPage {
+.aboutSection {
   /* background-color: #121212; */
   padding: 55px 25px 50px 25px;
+}
+
+#selfie {
+  padding-bottom: 25px;;
+}
+
+#selfie img {
+  width: 13rem;
+  height: 13rem;
+
+  /* Image position */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #headerAbout {
@@ -24,7 +38,7 @@
 }
 
 #headerAbout strong {
-  color: white;
+  color: #FFFFFF;
 }
 
 #desc {
@@ -35,10 +49,9 @@
 #aboutSvg {
   color: #FFFFFF; /* Temporary color profile */
   opacity: .8;
-
-  width: 32px;
-  height: 32px;
   
-  margin-left: 4px;
-  margin-right: 4px;
+  width: 48px;
+  height: 48px;
+
+  padding: 5px;
 }

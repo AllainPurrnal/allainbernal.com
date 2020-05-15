@@ -1,5 +1,9 @@
+import selfie from './assets/selfie.webp';
 import pj1 from './assets/mywebsite.webp';
 import pj2 from './assets/clickygame.webp';
+import pj3 from './assets/getmilk.webp';
+
+import wip from './assets/wip.webp';
 
 import pb1 from './assets/drumkit.webp';
 import pb2 from './assets/clock.webp';
@@ -7,10 +11,9 @@ import pb2 from './assets/clock.webp';
 let websiteData = {
   name: "Allain Bernal",
   role: "Full Stack Web Developer",
-  // about: "A, con panna medium robusta single shot barista whipped, aged qui turkish, ut macchiato plunger pot roast brewed instant siphon and cream. Variety that arabica plunger pot, blue mountain foam con panna, affogato crema, so java, doppio frappuccino robusta body dark rich robusta id froth cortado dark. Breve, at organic so, cup coffee, cappuccino, carajillo barista, variety organic seasonal, redeye rich as cappuccino foam instant.",
-
-  about: "Allain Bernal is a tech enthusiast with an insatiable hunger for learning anything and everything about technology. He strives in team collaborative efforts with excellent communication skills necessary to tackle any problems. Allain has a non-traditional background in the software development space, opting for self-paced practical learning. Having enrolled and completed the UC Berkeley Coding Bootcamp, Allain is equipped with the knowledge necessary to tackle problems being faced by development teams utilizing modern development stacks. Always curious, always learning.",
-
+  selfie: selfie,
+  about: "A tech enthusiast with an insatiable hunger for learning everything about technology, Allain Bernal strives in team collaborative efforts with excellent communication skills necessary to tackle any problems. Allain Bernal is curious, and always learning.",
+  background: "Allain has a non-traditional background in the software development space, opting for self-paced practical learning to gain the necessary skills to start tackling problems in web development. To help kickstart his journey, he enrolled in the UC Berkeley Coding Bootcamp to further equip him with knowledge necessary to work in development teams utilizing modern development stacks.",
   contactInfo: {
     phone: "(925) 338-1949",
     email: "me@allainbernal.com"
@@ -67,7 +70,7 @@ let websiteData = {
       },
       // description: "Sit wings redeye trifecta caffeine, aroma arabica java percolator aftertaste. Redeye sit, grinder, body cappuccino cream java white. Americano acerbic, galão, milk, caffeine crema dripper affogato coffee that sugar crema.",
 
-      description: "OpenOakland is a Civic Hacking Group part of the Code for America Organization. The organizations primary purpose is to improve local communities by using technology to identify and solve problems affecting the society. Currently beginning my journey in civic engagement by learning and understanding the needs of the community with the goal of contributing to the many ongoing projects at Open Oakland"
+      description: "OpenOakland is a Civic Hacking Group part of the Code for America Organization. The organizations primary purpose is to improve local communities by using technology to identify and solve problems affecting the society. Allain is just beginning his journey in civic hacking. New members are welcome!"
     },
     {
       id: 2,
@@ -78,7 +81,7 @@ let websiteData = {
         startDate: "October 2018",
         endDate: "February 2019"
       },
-      description: "Learned and explored key concepts in Web Development such as functional programming with JavaScript and DOM Manipulation with HTML, CSS, and React. Learning outcomes include the aforementioned concepts as well as the use of tools such as Git as well as communication in a development team. Our work culminated in three projects with varying levels of complexity that tracked student progress. Although the final project consisted of many challenges for my development team, we came out learning new skills such as working in an Agile development environment, prioritization of key features over “nice to haves” and proper, consistent communication."
+      description: "Learned and explored key concepts in Web Development such as functional programming with JavaScript and DOM Manipulation with HTML, CSS, and React. Learning outcomes also included the use of tools such as Git as well as communication in a development team. Student work culminated in three projects with varying levels of complexity. Although the final project consisted of many challenges for Allain's team, they came out learning new skills such as working in an Agile development environment, feature prioritization and proper, consistent communication."
     }
   ],
   portfolio: [
@@ -97,8 +100,26 @@ let websiteData = {
       link: "https://cat-clicky-game.herokuapp.com/",
       git: "https://github.com/AllainPurrnal/Cat-Clicky-Game",
       tech: ["HTML", "CSS", "JavaScript", "React"],
-      description: "A simple memory game built with React and Cats. The apps main focus is to show proficiency with the listed technologies used.",
+      description: "A simple memory game built with React and Cats. For demo purposes only. Please give Heroku time to fire up!",
       image: pj2
+    },
+    {
+      id: 3,
+      name: "GetMilk",
+      link: "https://frozen-stream-30142.herokuapp.com/",
+      git: "https://github.com/AllainPurrnal/GetMilk",
+      tech: ["HTML", "CSS", "JavaScript", "MongoDB", "Node.js", "React"],
+      description: "A Shopping List built with Authentication and persistent data. For demo purposes only. Please give Heroku time to fire up!",
+      image: pj3
+    },
+    {
+      id: 4,
+      name: "The Pet Parlor",
+      link: "https://github.com/AllainPurrnal/ThePetParlor",
+      git: "https://github.com/AllainPurrnal/ThePetParlor",
+      tech: ["HTML", "CSS", "JavaScript", "MongoDB", "Node.js", "React"],
+      description: "A web app for a Pet Grooming small business based in Iowa, please check out the Github to see the progress!",
+      image: wip
     }
   ],
   projectByte: [

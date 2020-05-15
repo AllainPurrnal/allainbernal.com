@@ -17,7 +17,7 @@ const Project = ({ project }) => {
 
   return (
     <MDBCol className='flex-center' id="projectBody">
-      <MDBCard style={{ width: "20rem" }}>
+      <MDBCard style={{ width: "15rem" }}>
         <a href={project.link}>
           <MDBCardImage className='img-fluid' src={project.image} alt={project.name} overlay='black-slight' />
         </a>

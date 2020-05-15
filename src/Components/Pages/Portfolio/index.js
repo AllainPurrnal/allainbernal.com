@@ -26,14 +26,9 @@ const Portfolio = ({ portfolio, bytes }) => {
           <h4><em><strong>Portfolio</strong></em></h4>
         </MDBCol>
       </MDBRow>
-
-      <div  id="projSubheader">
-        <div>
-          <h4><strong>Projects</strong></h4>
-        </div>
-        <div>
-          <h5><em>Larger in scope and functionality</em></h5>
-        </div>
+        
+      <div id="projSubheader">
+        <h5><strong>Gigs</strong></h5> <em>Larger in scope and functionality</em>
       </div>
 
       <MDBRow className="projects">
@@ -42,13 +37,8 @@ const Portfolio = ({ portfolio, bytes }) => {
 
       <hr />
 
-      <div  id="projSubheader">
-        <div>
-          <h4><strong>Bytes</strong></h4>
-        </div>
-        <div>
-          <h5><em>Simple, Focused</em></h5>
-        </div>
+      <div id="projSubheader">
+        <h5><strong>Bytes</strong></h5> <em>Simple, Focused</em>
       </div>
 
       <MDBRow className="projects">
