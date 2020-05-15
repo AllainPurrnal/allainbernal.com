@@ -3,7 +3,7 @@
 }
 
 #selfie {
-  padding-bottom: 25px;;
+  padding-bottom: 15px;
 }
 
 #selfie img {
@@ -16,11 +16,11 @@
   margin-right: auto;
 }
 
-#headerAbout {
-  padding-bottom: 25px;
+.aboutMe {
+  padding-top: 25px;
 }
 
-#headerAbout h4{
+#aboutHeader h4{
   text-align: right;
   opacity: .8;
 
@@ -32,11 +32,11 @@
 
 
 /* Pink underline for the Section Header */
-#headerAbout em {
+#aboutHeader em {
   border-bottom: 2px solid #C70084;
 }
 
-#headerAbout strong {
+#aboutHeader strong {
   color: #FFFFFF;
 }
 

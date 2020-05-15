@@ -22,8 +22,8 @@ const About = ({ data }) => {
         <img src={data.selfie} alt="Allain's picture!" className='rounded-circle img-fluid z-depth-1 ' />
       </MDBRow>
 
-      <MDBRow>
-        <MDBCol id="headerAbout" size="5">
+      <MDBRow className="aboutMe">
+        <MDBCol id="aboutHeader" size="5">
           <h4><em><strong>About</strong></em></h4>
         </MDBCol>
         
@@ -35,7 +35,7 @@ const About = ({ data }) => {
       <hr />
 
       <MDBRow>
-        <MDBCol id="headerAbout" size="5">
+        <MDBCol id="aboutHeader" size="5">
           <h4><em><strong>Background</strong></em></h4>
         </MDBCol>
         
