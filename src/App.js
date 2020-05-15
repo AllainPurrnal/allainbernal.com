@@ -22,14 +22,16 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Landing data={data} />
+      <Landing data={data} id="#" />
 
       <div id="appAbout">
         <About data={data} />
       </div>
 
-      <Resume skills={data.skills} experience={data.experience} />
-      
+      <div>
+        <Resume skills={data.skills} experience={data.experience} />
+      </div>
+
       <div id="appPortfolio">
         <Portfolio portfolio={data.portfolio} bytes={data.projectByte} />
       </div>
