@@ -5,7 +5,7 @@ import { MDBCol, MDBView, MDBMask, MDBCard } from 'mdbreact';
 import './index.css';
 
 const ProjectByte = ({ byte }) => {
-  console.log(byte)
+  // console.log(byte);
   
   return (
     <MDBCol className="flex-center">
