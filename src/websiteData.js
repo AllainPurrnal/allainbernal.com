@@ -12,7 +12,7 @@ let websiteData = {
   name: "Allain Bernal",
   role: "Full Stack Web Developer",
   selfie: selfie,
-  about: "A tech enthusiast with an insatiable hunger for learning everything about technology, Allain Bernal strives in team collaborative efforts with excellent communication skills necessary to tackle any problems. Allain Bernal is curious, and always learning.",
+  about: "A tech enthusiast with an insatiable hunger for learning everything about technology, Allain Bernal strives in team collaborative efforts with excellent communication skills necessary to tackle any problem. Allain Bernal is curious, and always learning.",
   background: "Allain has a non-traditional background in the software development space, opting for self-paced practical learning to gain the necessary skills to start tackling problems in web development. To help kickstart his journey, he enrolled in the UC Berkeley Coding Bootcamp to further equip him with knowledge necessary to work in development teams utilizing modern development stacks.",
   contactInfo: {
     phone: "(925) 338-1949",
