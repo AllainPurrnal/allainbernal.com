@@ -4,11 +4,12 @@ import pj2 from './assets/clickygame.webp';
 import pj3 from './assets/getmilk.webp';
 
 import wip from './assets/wip.webp';
+import purnalBot from './assets/PurnalBot.webp'
 
 import pb1 from './assets/drumkit.webp';
 import pb2 from './assets/clock.webp';
 
-let websiteData = {
+const websiteData = {
   name: "Allain Bernal",
   role: "Full Stack Web Developer",
   selfie: selfie,
@@ -120,6 +121,15 @@ let websiteData = {
       tech: ["HTML", "CSS", "JavaScript", "MongoDB", "Node.js", "React"],
       description: "A web app for a Pet Grooming small business based in Iowa, please check out the Github to see the progress!",
       image: wip
+    },
+    {
+      id: 5,
+      name: "PurnalBot",
+      link: "https://github.com/allainPurrnal/PurnalBot",
+      git: "https://github.com/allainPurrnal/PurnalBot",
+      tech: ["JavaScript", "MongoDB", "Node.js"],
+      description: "A Bot for my personal Discord Server with game specific commands. Please check out the github for more details!",
+      image: purnalBot
     }
   ],
   projectByte: [

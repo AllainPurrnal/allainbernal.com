@@ -19,7 +19,7 @@ const About = ({ data }) => {
     <MDBContainer className="aboutSection text-justify" id="about">
 
       <MDBRow id="selfie">
-        <img src={data.selfie} alt="Allain's picture!" className='rounded-circle img-fluid z-depth-1 ' />
+        <img src={data.selfie} alt="Allain's selfie!" className='rounded-circle img-fluid z-depth-1 ' />
       </MDBRow>
 
       <MDBRow className="aboutMe">
