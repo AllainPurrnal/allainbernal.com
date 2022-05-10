@@ -37,9 +37,10 @@ const Landing = ({ data }) => {
         
           <div className='d-flex flex-center'>
             <a href="#about">
-              <Icon
-                path={mdiChevronDown}
-                id='arrowDown' />
+              <Icon path={mdiChevronDown}
+                title="Learn More"
+                size={2}
+                id='keyboard-arrow-down' />
             </a>
           </div>
         </div>
