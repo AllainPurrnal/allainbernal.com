@@ -41,7 +41,7 @@ const websiteData = {
       id: 2,
       type: "Libraries & Frameworks",
       name: [
-        "Bootstrap", "Express.js", "MDBootstrap", "React", "Redux", "Tailwind CSS"
+        "Angular", "Bootstrap", "Express.js", "MDBootstrap", "React"
       ]
     },
     {
@@ -55,41 +55,39 @@ const websiteData = {
       id: 4,
       type: "Tools & Platforms",
       name: [
-        "AdobeXD", "Git", "Node.js", "Postman", "NPM", "Trello", "Yarn"
+        "Confluence", "Git", "Jira", "Node.js", "Postman", "NPM", "Trello", "Yarn"
       ]
     }
   ],
   experience: [
     {
       id: 1,
-      company: "Open Oakland",
+      company: "Accenture",
       link: "https://openoakland.org/",
-      role: "Contributor",
+      role: "Product Owner",
       period: {
-        startDate: "May 01, 2020",
+        startDate: "August 2021",
         endDate: "Present"
       },
-      // description: "Sit wings redeye trifecta caffeine, aroma arabica java percolator aftertaste. Redeye sit, grinder, body cappuccino cream java white. Americano acerbic, galão, milk, caffeine crema dripper affogato coffee that sugar crema.",
-
-      description: "OpenOakland is a Civic Hacking Group part of the Code for America Organization. The organizations primary purpose is to improve local communities by using technology to identify and solve problems affecting the society. Allain is just beginning his journey in civic hacking. New members are welcome!"
+      description: "A founding team member tasked with engaging Maui's Regional Hospital, in collaboration with a leading Health Care Provider based in California. We were tasked with expanding user access to currently provided web services being provided by the hospital"
     },
     {
       id: 2,
-      company: "UC Berkeley Coding Bootcamp",
+      company: "Accenture",
       link: "https://extension.berkeley.edu/",
-      role: "Web Development Student",
+      role: "Front-End Developer Apprentice",
       period: {
-        startDate: "October 2018",
-        endDate: "February 2019"
+        startDate: "September 2020",
+        endDate: "August 2021"
       },
-      description: "Learned and explored key concepts in Web Development such as functional programming with JavaScript and DOM Manipulation with HTML, CSS, and React. Learning outcomes also included the use of tools such as Git as well as communication in a development team. Student work culminated in three projects with varying levels of complexity. Although the final project consisted of many challenges for Allain's team, they came out learning new skills such as working in an Agile development environment, feature prioritization and proper, consistent communication."
+      description: "Joined an established agile-scrum team working with one of California's leading Health Care Providers on improving and maintaining the call center application used by Customer Service Representatives."
     }
   ],
   portfolio: [
     {
       id: 1,
       name: "allainbernal.com",
-      link: "www.allainbernal.com",
+      link: "https://www.allainbernal.com",
       git: "https://github.com/AllainPurrnal/allainbernal.com",
       tech: ["HTML", "CSS", "JavaScript", "React", "MDBootstrap"],
       description: "An ever evolving website for my hobbies and interests to call home",
